@@ -1,0 +1,17 @@
+C:\Users\eleevd\Training\Bank2\Bank2\bin\Debug\net5.0\Bank2.exe
+C:\Users\eleevd\Training\Bank2\Bank2\bin\Debug\net5.0\Bank2.deps.json
+C:\Users\eleevd\Training\Bank2\Bank2\bin\Debug\net5.0\Bank2.runtimeconfig.json
+C:\Users\eleevd\Training\Bank2\Bank2\bin\Debug\net5.0\Bank2.runtimeconfig.dev.json
+C:\Users\eleevd\Training\Bank2\Bank2\bin\Debug\net5.0\Bank2.dll
+C:\Users\eleevd\Training\Bank2\Bank2\bin\Debug\net5.0\ref\Bank2.dll
+C:\Users\eleevd\Training\Bank2\Bank2\bin\Debug\net5.0\Bank2.pdb
+C:\Users\eleevd\Training\Bank2\Bank2\obj\Debug\net5.0\Bank2.csproj.AssemblyReference.cache
+C:\Users\eleevd\Training\Bank2\Bank2\obj\Debug\net5.0\Bank2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eleevd\Training\Bank2\Bank2\obj\Debug\net5.0\Bank2.AssemblyInfoInputs.cache
+C:\Users\eleevd\Training\Bank2\Bank2\obj\Debug\net5.0\Bank2.AssemblyInfo.cs
+C:\Users\eleevd\Training\Bank2\Bank2\obj\Debug\net5.0\Bank2.csproj.CoreCompileInputs.cache
+C:\Users\eleevd\Training\Bank2\Bank2\obj\Debug\net5.0\Bank2.dll
+C:\Users\eleevd\Training\Bank2\Bank2\obj\Debug\net5.0\ref\Bank2.dll
+C:\Users\eleevd\Training\Bank2\Bank2\obj\Debug\net5.0\Bank2.pdb
+C:\Users\eleevd\Training\Bank2\Bank2\obj\Debug\net5.0\Bank2.genruntimeconfig.cache
+C:\Users\eleevd\Training\Bank2\Bank2\bin\Debug\net5.0\Data\Transactions2014.csv
