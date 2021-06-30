@@ -73,3 +73,8 @@
 2021-06-30 16:18:38.8362 Info - Bank2.Program: User called List of asdasd's transactions report.
 2021-06-30 16:18:38.8362 Error - Bank2.Program: asdasd does not exist in our database... sorry...
 2021-06-30 16:18:40.7835 Error - Bank2.Program: User decided not to continue
+2021-06-30 16:45:16.4443 Info - Bank2.Program: Program started
+2021-06-30 16:45:16.4855 Info - Bank2.Program: The program has successfully read the file.
+2021-06-30 16:45:16.4855 Error - Bank2.Transaction: Transaction on 01/03/2015 from Ben B to Sam N has a non decimal amount: One Cheeseburger
+2021-06-30 16:45:20.9420 Error - Bank2.Program: User input an incorrect option, userInput: 5
+2021-06-30 16:45:25.3535 Info - Bank2.Program: User called all users debts and lends report.

@@ -17,7 +17,8 @@ namespace Bank2
             var config = new LoggingConfiguration();
             var target = new FileTarget
             {
-                FileName = @"C:\Users\eleevd\Training\Bank2\Bank2\Logs\Bank.log",
+                //FileName = @"C:\Users\eleevd\Training\Bank2\Bank2\Logs\Bank.log",
+                FileName = @"C:\Users\suwtru\Training\Bank2\Bank2\Logs\Bank.log",
                 Layout = @"${longdate} ${level} - ${logger}: ${message}"
             };
             config.AddTarget("File Logger", target);
