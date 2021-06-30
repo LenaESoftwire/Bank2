@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+G0joQ1+KPYP6UbnjjtxtPoZTXAgF6cLKqN2+9HdHfpYxp3AXyVSeEBrn8HxPLGR+nMUGWOoQ0+Z3NiiWhX6/A==",
+  "dgSpecHash": "H6hkMXKRkL3jyoJ/52jsKiar/ZVxA1/EMVMSNAJT96nW91LQ/nL5CPSbtE863TyXCYG1dsn8OvHUWZLqkIuLPw==",
   "success": true,
   "projectFilePath": "C:\\Users\\eleevd\\Training\\Bank2\\Bank2\\Bank2.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\eleevd\\.nuget\\packages\\nlog\\4.7.10\\nlog.4.7.10.nupkg.sha512"
+  ],
   "logs": []
 }

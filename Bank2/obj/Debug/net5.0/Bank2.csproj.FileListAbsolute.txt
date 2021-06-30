@@ -15,3 +15,6 @@ C:\Users\eleevd\Training\Bank2\Bank2\obj\Debug\net5.0\ref\Bank2.dll
 C:\Users\eleevd\Training\Bank2\Bank2\obj\Debug\net5.0\Bank2.pdb
 C:\Users\eleevd\Training\Bank2\Bank2\obj\Debug\net5.0\Bank2.genruntimeconfig.cache
 C:\Users\eleevd\Training\Bank2\Bank2\bin\Debug\net5.0\Data\Transactions2014.csv
+C:\Users\eleevd\Training\Bank2\Bank2\bin\Debug\net5.0\Data\Transactions2015.csv
+C:\Users\eleevd\Training\Bank2\Bank2\bin\Debug\net5.0\NLog.dll
+C:\Users\eleevd\Training\Bank2\Bank2\obj\Debug\net5.0\Bank2.csproj.CopyComplete

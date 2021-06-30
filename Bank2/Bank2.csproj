@@ -9,5 +9,8 @@
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</Content>
 	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="NLog" Version="4.7.10" />
+	</ItemGroup>
 
 </Project>

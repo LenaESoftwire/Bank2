@@ -1,19 +1,33 @@
-﻿using System.Transactions;
+﻿using NLog;
+using NLog.Config;
+using NLog.Targets;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System;
 
 namespace Bank2
-
 {
-    class Program
+    internal class Program
     {
-         
-        static void Main()
+        private static readonly ILogger Logger = LogManager.GetCurrentClassLogger();
+
+        private static void Main()
         {
+            var config = new LoggingConfiguration();
+            var target = new FileTarget
+            {
+                FileName = @"C:\Users\eleevd\Training\Bank2\Bank2\Logs\Bank.log",
+                Layout = @"${longdate} ${level} - ${logger}: ${message}"
+            };
+            config.AddTarget("File Logger", target);
+            config.LoggingRules.Add(new LoggingRule("*", LogLevel.Debug, target));
+            LogManager.Configuration = config;
+
+            Logger.Info("Program started");
+
             var bank = new Bank();
-            var path = "./Data/Transactions2014.csv";
+            var path = "./Data/Transactions2015.csv";
             var lines = File.ReadAllLines(path);
             lines = lines.Skip(1).ToArray();
             bank.Transactions = lines.Select(line => new Transaction(line.Split(','))).ToList();
@@ -45,13 +59,13 @@ namespace Bank2
             {
                 bank.ListAll();
             }
-           if (userInput == "2")
+
+            if (userInput == "2")
             {
                 Console.Write("Please input username: ");
                 var username = Console.ReadLine();
                 bank.ListAccount(username);
             }
-
-        }  
+        }
     }
 }
