@@ -28,44 +28,77 @@ namespace Bank2
 
             var bank = new Bank();
             var path = "./Data/Transactions2015.csv";
-            var lines = File.ReadAllLines(path);
-            lines = lines.Skip(1).ToArray();
-            bank.Transactions = lines.Select(line => new Transaction(line.Split(','))).ToList();
-
-            var userNames = new List<string>();
-            foreach (var transaction in bank.Transactions)
+            //var lines = new List<string>();
+            try
             {
-                if (!userNames.Contains(transaction.To))
+                var lines = File.ReadAllLines(path);
+                Logger.Info("The program has successfully read the file.");
+                lines = lines.Skip(1).ToArray();
+                bank.Transactions = lines.Select(line => new Transaction(line.Split(','))).ToList();
+
+                var userNames = new List<string>();
+                foreach (var transaction in bank.Transactions)
                 {
-                    userNames.Add(transaction.To);
+                    if (!userNames.Contains(transaction.To))
+                    {
+                        userNames.Add(transaction.To);
+                    }
+
+                    if (!userNames.Contains(transaction.From))
+                    {
+                        userNames.Add(transaction.From);
+                    }
                 }
 
-                if (!userNames.Contains(transaction.From))
+                foreach (var username in userNames)
                 {
-                    userNames.Add(transaction.From);
+                    var user = new UserAccount(username);
+                    bank.Users.Add(user);
+                    bank.CountDebtLend(user);
+                }
+
+
+                var userInput = "";
+                while (!(userInput == "1" || userInput == "2"))
+                {
+                    Console.Write("Which report would you like to call? 1) List All 2) User's transactions  :");
+                    userInput = Console.ReadLine();
+                    if (userInput == "1")
+                    {
+                        Logger.Info("User called all users debts and lends report.");
+                        bank.ListAll();
+                    }
+
+                    else if (userInput == "2")
+                    {
+                        var username = "";
+                      
+                        Console.Write("Please input username: ");
+                        username = Console.ReadLine();
+                        bank.ListAccount(username);
+                        Logger.Info($"User called List of {username}'s transactions report.");
+                        if (userNames.Contains(username))
+                        {
+                            bank.ListAccount(username);
+                            Logger.Info($"User called List of {username} transaction report.");
+                        }
+                        else
+                        {
+                            Logger.Error($"{username} does not exist in our database... sorry...");
+                        }
+                        
+                    }
+                    else
+                    {
+                        Logger.Error($"User input an incorrect option, userInput: {userInput}");
+                        Console.WriteLine("Invalid input, please try again!");
+                    }
                 }
             }
-
-            foreach (var username in userNames)
+            catch (Exception e)
             {
-                var user = new UserAccount(username);
-                bank.Users.Add(user);
-                bank.CountDebtLend(user);
-            }
-
-            Console.Write("Which report would you like to call? 1) List All 2) User's transactions  :");
-            var userInput = Console.ReadLine();
-            if (userInput == "1")
-            {
-                bank.ListAll();
-            }
-
-            if (userInput == "2")
-            {
-                Console.Write("Please input username: ");
-                var username = Console.ReadLine();
-                bank.ListAccount(username);
-            }
+                Logger.Error(e.Message);
+            };
         }
     }
 }
