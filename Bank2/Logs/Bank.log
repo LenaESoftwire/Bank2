@@ -52,3 +52,24 @@
 2021-06-30 15:47:10.8580 Info - Bank2.Program: The program has successfully read the file.
 2021-06-30 15:47:10.8671 Error - Bank2.Transaction: Transaction on 01/03/2015 from Ben B to Sam N has a non decimal amount: One Cheeseburger
 2021-06-30 15:47:14.8316 Error - Bank2.Program: sddf does not exist in our database... sorry...
+2021-06-30 16:12:28.1537 Info - Bank2.Program: Program started
+2021-06-30 16:12:28.2289 Info - Bank2.Program: The program has successfully read the file.
+2021-06-30 16:12:28.2457 Error - Bank2.Transaction: Transaction on 01/03/2015 from Ben B to Sam N has a non decimal amount: One Cheeseburger
+2021-06-30 16:12:35.8032 Info - Bank2.Program: User called List of asdasd's transactions report.
+2021-06-30 16:12:35.8032 Error - Bank2.Program: asdasd does not exist in our database... sorry...
+2021-06-30 16:12:44.3198 Info - Bank2.Program: User called List of dsdsf's transactions report.
+2021-06-30 16:12:44.3198 Error - Bank2.Program: dsdsf does not exist in our database... sorry...
+2021-06-30 16:15:12.3146 Info - Bank2.Program: Program started
+2021-06-30 16:15:12.3816 Info - Bank2.Program: The program has successfully read the file.
+2021-06-30 16:15:12.3816 Error - Bank2.Transaction: Transaction on 01/03/2015 from Ben B to Sam N has a non decimal amount: One Cheeseburger
+2021-06-30 16:15:15.5764 Error - Bank2.Program: User input an incorrect option, userInput: 3
+2021-06-30 16:15:24.6106 Info - Bank2.Program: User called List of asdf's transactions report.
+2021-06-30 16:15:24.6106 Error - Bank2.Program: asdf does not exist in our database... sorry...
+2021-06-30 16:15:38.0305 Info - Bank2.Program: User called List of Jon A's transactions report.
+2021-06-30 16:15:38.0305 Info - Bank2.Program: Jon A's transaction report was given.
+2021-06-30 16:18:32.2020 Info - Bank2.Program: Program started
+2021-06-30 16:18:32.2442 Info - Bank2.Program: The program has successfully read the file.
+2021-06-30 16:18:32.2442 Error - Bank2.Transaction: Transaction on 01/03/2015 from Ben B to Sam N has a non decimal amount: One Cheeseburger
+2021-06-30 16:18:38.8362 Info - Bank2.Program: User called List of asdasd's transactions report.
+2021-06-30 16:18:38.8362 Error - Bank2.Program: asdasd does not exist in our database... sorry...
+2021-06-30 16:18:40.7835 Error - Bank2.Program: User decided not to continue

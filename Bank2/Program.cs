@@ -28,7 +28,6 @@ namespace Bank2
 
             var bank = new Bank();
             var path = "./Data/Transactions2015.csv";
-            //var lines = new List<string>();
             try
             {
                 var lines = File.ReadAllLines(path);
@@ -71,22 +70,31 @@ namespace Bank2
 
                     else if (userInput == "2")
                     {
+                        bool tryAgain=true;
                         var username = "";
-                      
-                        Console.Write("Please input username: ");
-                        username = Console.ReadLine();
-                        bank.ListAccount(username);
-                        Logger.Info($"User called List of {username}'s transactions report.");
-                        if (userNames.Contains(username))
+
+                        while (!userNames.Contains(username) && tryAgain)
                         {
+                            Console.Write("Please input username: ");
+                            username = Console.ReadLine();
                             bank.ListAccount(username);
-                            Logger.Info($"User called List of {username} transaction report.");
+                            Logger.Info($"User called List of {username}'s transactions report.");
+                            if (userNames.Contains(username))
+                            {
+                                bank.ListAccount(username);
+                                Logger.Info($"{username}'s transaction report was given.");
+                            }
+                            else
+                            {
+                                Logger.Error($"{username} does not exist in our database... sorry...");
+                                Console.Write($"There is no user with name {username} in our database, sorry. Do you want to try again? Type y for yes");
+                                tryAgain = (Console.ReadLine() == "y");
+                                if (!tryAgain)
+                                {
+                                    Logger.Error("User decided not to continue");
+                                }
+                            }
                         }
-                        else
-                        {
-                            Logger.Error($"{username} does not exist in our database... sorry...");
-                        }
-                        
                     }
                     else
                     {
