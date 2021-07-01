@@ -15,9 +15,13 @@ namespace Bank2
 
             Logger.Info("Program started");
 
-            var path = "./Data/Transactions2015.csv";
+            var pathCSV = "./Data/Transactions2015.csv";
+            var transactionsCSV = ParseTransactionFile.ReadFileCSV(pathCSV);
 
-            var bank = new Bank(path);
+
+            var pathJSON = "./Data/Transactions2013.json";
+            var transactionsJSON = ParseTransactionFile.ReadFileJSON(pathJSON);
+            var bank = new Bank(transactionsJSON);
 
             switch (GetReportOption())
             {

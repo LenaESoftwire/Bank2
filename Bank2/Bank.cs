@@ -12,32 +12,18 @@ namespace Bank2
         public List<Transaction> Transactions { get; set; } 
         public List<string> Users { get; set; }
 
-        public Bank (string path)
+        public Bank (List<Transaction> transactions)
         {
-            Transactions = ReadFile(path);
+            //Transactions = ReadFileJSON(path);
+            //Transactions = ReadFile(path);
+            Transactions = transactions;
             Users = GetUsernames();
-        }
-
-        private static List<Transaction> ReadFile(string path)
-        {
-            try
-            {
-                var lines = File.ReadAllLines(path);
-                lines = lines.Skip(1).ToArray();
-                Logger.Info("The program has successfully read the file.");
-                return lines.Select(line => new Transaction(line.Split(','))).ToList();
-            }
-            catch (Exception e)
-            {
-                Logger.Error(e.Message);
-                return new List<Transaction>();
-            };
         }
 
         private List<string> GetUsernames()
         {
-            var transactionToNames = Transactions.Select(t => t.To);
-            var transactionFromNames = Transactions.Select(t => t.From);
+            var transactionToNames = Transactions.Select(t => t.ToAccount);
+            var transactionFromNames = Transactions.Select(t => t.FromAccount);
             return transactionToNames.Concat(transactionFromNames).Distinct().ToList();
         }
 
@@ -49,12 +35,12 @@ namespace Bank2
                 var lend = 0M;
                 foreach (var transaction in Transactions)
                 {
-                    if (user == transaction.To)
+                    if (user == transaction.ToAccount)
                     {
                         debt += transaction.Amount;
                     }
 
-                    if (user == transaction.From)
+                    if (user == transaction.FromAccount)
                     {
                         lend += transaction.Amount;
                     }
@@ -67,7 +53,7 @@ namespace Bank2
         {
             foreach (var transaction in Transactions)
             {
-                if (username == transaction.To || username == transaction.From)
+                if (username == transaction.ToAccount || username == transaction.FromAccount)
                 {
                     transaction.PrintTransaction();
                 }
