@@ -78,3 +78,68 @@
 2021-06-30 16:45:16.4855 Error - Bank2.Transaction: Transaction on 01/03/2015 from Ben B to Sam N has a non decimal amount: One Cheeseburger
 2021-06-30 16:45:20.9420 Error - Bank2.Program: User input an incorrect option, userInput: 5
 2021-06-30 16:45:25.3535 Info - Bank2.Program: User called all users debts and lends report.
+2021-07-01 10:25:57.4565 Info - Bank2.Program: Program started
+2021-07-01 10:25:57.5104 Info - Bank2.Program: The program has successfully read the file.
+2021-07-01 10:25:57.5172 Error - Bank2.Transaction: Transaction on 01/03/2015 from Ben B to Sam N has a non decimal amount: One Cheeseburger
+2021-07-01 10:26:15.2854 Info - Bank2.Program: User called List of Jon W's transactions report.
+2021-07-01 10:26:15.2854 Error - Bank2.Program: Jon W does not exist in our database... sorry...
+2021-07-01 10:26:33.8895 Info - Bank2.Program: User called List of Jon A's transactions report.
+2021-07-01 10:26:33.8895 Info - Bank2.Program: Jon A's transaction report was given.
+2021-07-01 10:26:44.0498 Info - Bank2.Program: Program started
+2021-07-01 10:26:44.0832 Info - Bank2.Program: The program has successfully read the file.
+2021-07-01 10:26:44.0832 Error - Bank2.Transaction: Transaction on 01/03/2015 from Ben B to Sam N has a non decimal amount: One Cheeseburger
+2021-07-01 10:27:00.2768 Error - Bank2.Program: User input an incorrect option, userInput: 4
+2021-07-01 10:27:05.7395 Error - Bank2.Program: User input an incorrect option, userInput: 3
+2021-07-01 10:27:12.5582 Info - Bank2.Program: User called List of Jon A's transactions report.
+2021-07-01 10:27:12.5603 Info - Bank2.Program: Jon A's transaction report was given.
+2021-07-01 11:49:00.7771 Info - Bank2.Program: Program started
+2021-07-01 11:49:00.8230 Info - Bank2.Program: The program has successfully read the file.
+2021-07-01 11:49:00.8310 Error - Bank2.Transaction: Transaction on 01/03/2015 from Ben B to Sam N has a non decimal amount: One Cheeseburger
+2021-07-01 11:49:21.0172 Info - Bank2.Program: User called all users debts and lends report.
+2021-07-01 11:55:06.1276 Info - Bank2.Program: Program started
+2021-07-01 11:55:06.1779 Info - Bank2.Program: The program has successfully read the file.
+2021-07-01 11:55:06.1779 Error - Bank2.Transaction: Transaction on 01/03/2015 from Ben B to Sam N has a non decimal amount: One Cheeseburger
+2021-07-01 11:55:18.5957 Info - Bank2.Program: User called all users debts and lends report.
+2021-07-01 11:55:27.9026 Info - Bank2.Program: Program started
+2021-07-01 11:55:27.9536 Info - Bank2.Program: The program has successfully read the file.
+2021-07-01 11:55:27.9575 Error - Bank2.Transaction: Transaction on 01/03/2015 from Ben B to Sam N has a non decimal amount: One Cheeseburger
+2021-07-01 11:56:00.5008 Info - Bank2.Program: User called List of 's transactions report.
+2021-07-01 11:56:17.3478 Error - Bank2.Program:  does not exist in our database... sorry...
+2021-07-01 11:56:40.9691 Info - Bank2.Program: User called List of Jon A's transactions report.
+2021-07-01 11:56:45.5157 Error - Bank2.Program: Jon A does not exist in our database... sorry...
+2021-07-01 11:57:13.3563 Error - Bank2.Program: User decided not to continue
+2021-07-01 12:18:10.5233 Info - Bank2.Program: Program started
+2021-07-01 12:18:10.5737 Info - Bank2.Program: The program has successfully read the file.
+2021-07-01 12:18:10.5737 Error - Bank2.Transaction: Transaction on 01/03/2015 from Ben B to Sam N has a non decimal amount: One Cheeseburger
+2021-07-01 12:18:30.5290 Info - Bank2.Program: User called all users debts and lends report.
+2021-07-01 12:19:49.5847 Info - Bank2.Program: Program started
+2021-07-01 12:19:49.6424 Info - Bank2.Program: The program has successfully read the file.
+2021-07-01 12:19:49.6575 Error - Bank2.Transaction: Transaction on 01/03/2015 from Ben B to Sam N has a non decimal amount: One Cheeseburger
+2021-07-01 12:19:52.7816 Info - Bank2.Program: User called all users debts and lends report.
+2021-07-01 12:20:02.0889 Info - Bank2.Program: Program started
+2021-07-01 12:20:02.1669 Info - Bank2.Program: The program has successfully read the file.
+2021-07-01 12:20:02.1669 Error - Bank2.Transaction: Transaction on 01/03/2015 from Ben B to Sam N has a non decimal amount: One Cheeseburger
+2021-07-01 12:20:25.0375 Info - Bank2.Program: User called List of Jon A's transactions report.
+2021-07-01 12:20:25.0375 Info - Bank2.Program: Jon A's transaction report was given.
+2021-07-01 12:34:04.5094 Info - Bank2.Program: Program started
+2021-07-01 12:34:04.5816 Info - Bank2.Program: The program has successfully read the file.
+2021-07-01 12:34:04.5858 Error - Bank2.Transaction: Transaction on 01/03/2015 from Ben B to Sam N has a non decimal amount: One Cheeseburger
+2021-07-01 12:34:07.1606 Info - Bank2.Program: User called all users debts and lends report.
+2021-07-01 12:34:23.1776 Info - Bank2.Program: Program started
+2021-07-01 12:34:23.2229 Info - Bank2.Program: The program has successfully read the file.
+2021-07-01 12:34:23.2305 Error - Bank2.Transaction: Transaction on 01/03/2015 from Ben B to Sam N has a non decimal amount: One Cheeseburger
+2021-07-01 12:34:37.7289 Info - Bank2.Program: User called List of Jon A's transactions report.
+2021-07-01 12:34:37.7289 Info - Bank2.Program: Jon A's transaction report was given.
+2021-07-01 13:48:40.3082 Info - Bank2.Program: Program started
+2021-07-01 13:48:40.3757 Info - Bank2.Program: The program has successfully read the file.
+2021-07-01 13:48:40.3933 Error - Bank2.Transaction: Transaction on 01/03/2015 from Ben B to Sam N has a non decimal amount: One Cheeseburger
+2021-07-01 13:48:42.6386 Info - Bank2.Program: User called all users debts and lends report.
+2021-07-01 14:12:14.9281 Info - Bank2.Program: Program started
+2021-07-01 14:12:15.0350 Info - Bank2.Program: The program has successfully read the file.
+2021-07-01 14:12:15.0350 Error - Bank2.Transaction: Transaction on 01/03/2015 from Ben B to Sam N has a non decimal amount: One Cheeseburger
+2021-07-01 14:12:17.7469 Info - Bank2.Program: User called all users debts and lends report.
+2021-07-01 14:12:24.4320 Info - Bank2.Program: Program started
+2021-07-01 14:12:24.5025 Info - Bank2.Program: The program has successfully read the file.
+2021-07-01 14:12:24.5025 Error - Bank2.Transaction: Transaction on 01/03/2015 from Ben B to Sam N has a non decimal amount: One Cheeseburger
+2021-07-01 14:12:29.4272 Info - Bank2.Program: User called List of Jon A's transactions report.
+2021-07-01 14:12:29.4272 Info - Bank2.Program: Jon A's transaction report was given.

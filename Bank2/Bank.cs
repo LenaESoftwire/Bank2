@@ -6,21 +6,27 @@ namespace Bank2
 {
     public class Bank
     {
-        private static readonly ILogger Logger = LogManager.GetCurrentClassLogger();
-        public List<Transaction> Transactions { get; set; }
-        public List<UserAccount> Users { get; set; }
-
-        public Bank()
-        {
-            Transactions = new List<Transaction>();
-            Users = new List<UserAccount>();
-        }
-
+        public List<Transaction> Transactions { get; set; } = new List<Transaction>();
+        public List<string> Users { get; set; } = new List<string>();
         public void ListAll()
         {
             foreach (var user in Users)
             {
-                Console.WriteLine(user.Name + " debt " + user.Debt + " lend " + user.Lend);
+                decimal debt = 0;
+                decimal lend = 0;
+                foreach (var transaction in Transactions)
+                {
+                    if (user == transaction.To)
+                    {
+                        debt += transaction.Amount;
+                    }
+
+                    if (user == transaction.From)
+                    {
+                        lend += transaction.Amount;
+                    }
+                }
+                Console.WriteLine($"{user} debt is {debt} lend {lend}");
             }
         }
 
@@ -31,24 +37,6 @@ namespace Bank2
                 if (username == transaction.To || username == transaction.From)
                 {
                     transaction.PrintTransaction();
-                }
-            }
-        }
-
-        public void CountDebtLend(UserAccount user)
-        {
-            foreach (var transaction in Transactions)
-            {
-                if (user.Name == transaction.To)
-                {
-                    //Console.WriteLine("yes" + user.Debt);
-                    user.Debt += transaction.Amount;
-                    //Console.WriteLine(user.Debt);
-                }
-
-                if (user.Name == transaction.From)
-                {
-                    user.Lend += transaction.Amount;
                 }
             }
         }

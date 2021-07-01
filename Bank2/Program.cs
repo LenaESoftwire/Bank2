@@ -14,6 +14,35 @@ namespace Bank2
 
         private static void Main()
         {
+            SetupLogging();
+
+            Logger.Info("Program started");
+
+            var bank = new Bank();
+            var path = "./Data/Transactions2015.csv";
+
+            bank.Transactions = ReadFile(path);
+            bank.Users = CreateListOfUsers(bank);
+
+            var userChoice = UserChoiceInput();
+
+            switch (userChoice)
+            {
+                case "1":
+                    Logger.Info("User called all users debts and lends report.");
+                    bank.ListAll();
+                    break;
+
+                case "2":
+                    var username = UserNameInput(bank); 
+                    bank.ListAccount(username);
+                    Logger.Info($"{username}'s transaction report was given.");
+                    break;
+            }
+        }
+
+        private static void SetupLogging()
+        {
             var config = new LoggingConfiguration();
             var target = new FileTarget
             {
@@ -24,90 +53,72 @@ namespace Bank2
             config.AddTarget("File Logger", target);
             config.LoggingRules.Add(new LoggingRule("*", LogLevel.Debug, target));
             LogManager.Configuration = config;
+        }
 
-            Logger.Info("Program started");
-
-            var bank = new Bank();
-            var path = "./Data/Transactions2015.csv";
+        private static List<Bank2.Transaction> ReadFile(string path)
+        {
+            var lines = new string[] { };
             try
             {
-                var lines = File.ReadAllLines(path);
-                Logger.Info("The program has successfully read the file.");
+                lines = File.ReadAllLines(path);
                 lines = lines.Skip(1).ToArray();
-                bank.Transactions = lines.Select(line => new Transaction(line.Split(','))).ToList();
-
-                var userNames = new List<string>();
-                foreach (var transaction in bank.Transactions)
-                {
-                    if (!userNames.Contains(transaction.To))
-                    {
-                        userNames.Add(transaction.To);
-                    }
-
-                    if (!userNames.Contains(transaction.From))
-                    {
-                        userNames.Add(transaction.From);
-                    }
-                }
-
-                foreach (var username in userNames)
-                {
-                    var user = new UserAccount(username);
-                    bank.Users.Add(user);
-                    bank.CountDebtLend(user);
-                }
-
-
-                var userInput = "";
-                while (!(userInput == "1" || userInput == "2"))
-                {
-                    Console.Write("Which report would you like to call? 1) List All 2) User's transactions  :");
-                    userInput = Console.ReadLine();
-                    if (userInput == "1")
-                    {
-                        Logger.Info("User called all users debts and lends report.");
-                        bank.ListAll();
-                    }
-
-                    else if (userInput == "2")
-                    {
-                        bool tryAgain=true;
-                        var username = "";
-
-                        while (!userNames.Contains(username) && tryAgain)
-                        {
-                            Console.Write("Please input username: ");
-                            username = Console.ReadLine();
-                            bank.ListAccount(username);
-                            Logger.Info($"User called List of {username}'s transactions report.");
-                            if (userNames.Contains(username))
-                            {
-                                bank.ListAccount(username);
-                                Logger.Info($"{username}'s transaction report was given.");
-                            }
-                            else
-                            {
-                                Logger.Error($"{username} does not exist in our database... sorry...");
-                                Console.Write($"There is no user with name {username} in our database, sorry. Do you want to try again? Type y for yes");
-                                tryAgain = (Console.ReadLine() == "y");
-                                if (!tryAgain)
-                                {
-                                    Logger.Error("User decided not to continue");
-                                }
-                            }
-                        }
-                    }
-                    else
-                    {
-                        Logger.Error($"User input an incorrect option, userInput: {userInput}");
-                        Console.WriteLine("Invalid input, please try again!");
-                    }
-                }
+                Logger.Info("The program has successfully read the file.");
             }
             catch (Exception e)
             {
                 Logger.Error(e.Message);
             };
+            return lines.Select(line => new Transaction(line.Split(','))).ToList();
+        }
+
+        private static List<String> CreateListOfUsers(Bank bank)
+        {
+            var userNames = new List<string>();
+            var transactionToNames = bank.Transactions.Select(t => t.To);
+            var transactionFromNames = bank.Transactions.Select(t => t.From);
+            var users = transactionToNames.Concat(transactionFromNames).Distinct().Select(name => name);
+            userNames.AddRange(users);
+            return userNames;
+        }
+
+        private static string UserChoiceInput()
+        {
+            Console.Write("Which report would you like to call? 1) List All 2) User's transactions  :");
+            var userInput = Console.ReadLine();
+            while (!(userInput == "1" || userInput == "2"))
+            {
+                Logger.Error($"User input an incorrect option, userInput: {userInput}");
+                Console.WriteLine("Invalid input, please select 1) List All or 2) User's transactions. Type 1 or 2:  ");
+                userInput = Console.ReadLine();
+            }
+            return userInput;
+        }
+
+        private static String UserNameInput(Bank bank)
+        {
+            var tryAgain = true;
+
+            Console.Write("Please input username: ");
+            var username = Console.ReadLine();
+            Logger.Info($"User called List of {username}'s transactions report.");
+
+            while (!bank.Users.Contains(username) && tryAgain)
+            {
+                Logger.Error($"{username} does not exist in our database... sorry...");
+                Console.Write($"There is no user with name {username} in our database, sorry. Do you want to try again? Type y for yes: ");
+                tryAgain = (Console.ReadLine() == "y");
+                if (!tryAgain)
+                {
+                    Logger.Error("User decided not to continue");
+                }
+                else
+                {
+                    Console.Write("Please input username: ");
+                    username = Console.ReadLine();
+                    Logger.Info($"User called List of {username}'s transactions report.");
+                }
+            }
+            return username;
         }
     }
 }
