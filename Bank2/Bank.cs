@@ -1,19 +1,52 @@
-using NLog;
 using System;
 using System.Collections.Generic;
+using System.IO;
+using NLog;
+using System.Linq;
 
 namespace Bank2
 {
     public class Bank
     {
-        public List<Transaction> Transactions { get; set; } = new List<Transaction>();
-        public List<string> Users { get; set; } = new List<string>();
+        private static readonly ILogger Logger = LogManager.GetCurrentClassLogger();
+        public List<Transaction> Transactions { get; set; } 
+        public List<string> Users { get; set; }
+
+        public Bank (string path)
+        {
+            Transactions = ReadFile(path);
+            Users = GetUsernames();
+        }
+
+        private static List<Transaction> ReadFile(string path)
+        {
+            try
+            {
+                var lines = File.ReadAllLines(path);
+                lines = lines.Skip(1).ToArray();
+                Logger.Info("The program has successfully read the file.");
+                return lines.Select(line => new Transaction(line.Split(','))).ToList();
+            }
+            catch (Exception e)
+            {
+                Logger.Error(e.Message);
+                return new List<Transaction>();
+            };
+        }
+
+        private List<string> GetUsernames()
+        {
+            var transactionToNames = Transactions.Select(t => t.To);
+            var transactionFromNames = Transactions.Select(t => t.From);
+            return transactionToNames.Concat(transactionFromNames).Distinct().ToList();
+        }
+
         public void ListAll()
         {
             foreach (var user in Users)
             {
-                decimal debt = 0;
-                decimal lend = 0;
+                var debt = 0M;
+                var lend = 0M;
                 foreach (var transaction in Transactions)
                 {
                     if (user == transaction.To)
@@ -41,4 +74,5 @@ namespace Bank2
             }
         }
     }
+
 }

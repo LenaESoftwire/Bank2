@@ -38,3 +38,4 @@ C:\Users\suwtru\training\Bank2\Bank2\obj\Debug\net5.0\Bank2.dll
 C:\Users\suwtru\training\Bank2\Bank2\obj\Debug\net5.0\ref\Bank2.dll
 C:\Users\suwtru\training\Bank2\Bank2\obj\Debug\net5.0\Bank2.pdb
 C:\Users\suwtru\training\Bank2\Bank2\obj\Debug\net5.0\Bank2.genruntimeconfig.cache
+C:\Users\eleevd\Training\Bank2\Bank2\bin\Debug\net5.0\Logs\Bank.log

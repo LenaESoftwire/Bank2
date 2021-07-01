@@ -160,9 +160,3 @@
 2021-07-01 15:17:35.0211 Error - Bank2.Transaction: Transaction on 01/03/2015 from Ben B to Sam N has a non decimal amount: One Cheeseburger
 2021-07-01 15:17:48.1910 Info - Bank2.Program: User called List of Ben B's transactions report.
 2021-07-01 15:17:48.1910 Info - Bank2.Program: Ben B's transaction report was given.
-2021-07-01 15:20:42.1711 Info - Bank2.Program: Program started
-2021-07-01 15:20:42.2468 Info - Bank2.Bank: The program has successfully read the file.
-2021-07-01 15:20:42.2468 Error - Bank2.Transaction: Transaction on 01/03/2015 from Ben B to Sam N has a non decimal amount: One Cheeseburger
-2021-07-01 15:20:46.8796 Info - Bank2.Program: User called List of bdfbsd's transactions report.
-2021-07-01 15:20:46.8796 Error - Bank2.Program: bdfbsd does not exist in our database... sorry...
-2021-07-01 15:20:48.4595 Error - Bank2.Program: User decided not to continue
