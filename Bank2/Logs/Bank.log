@@ -211,3 +211,25 @@
 2021-07-01 23:08:26.5795 Error - Bank2.Transaction: Transaction on 01/03/2015 from Ben B to Sam N has a non decimal amount: One Cheeseburger
 2021-07-01 23:08:26.6145 Info - Bank2.ParseTransactionFile: The program has successfully read the file.
 2021-07-01 23:08:28.5746 Info - Bank2.Program: User called all users debts and lends report.
+2021-07-02 10:28:41.9075 Info - Bank2.Program: Program started
+2021-07-02 10:28:41.9715 Info - Bank2.ParseTransactionFile: The program has successfully read the file.
+2021-07-02 10:28:41.9715 Error - Bank2.Transaction: Transaction on 01/03/2015 from Ben B to Sam N has a non decimal amount: One Cheeseburger
+2021-07-02 10:28:42.0067 Info - Bank2.ParseTransactionFile: The program has successfully read the file.
+2021-07-02 10:28:46.1147 Info - Bank2.Program: User called all users debts and lends report.
+2021-07-02 10:28:58.0809 Info - Bank2.Program: Program started
+2021-07-02 10:28:58.1777 Info - Bank2.ParseTransactionFile: The program has successfully read the file.
+2021-07-02 10:28:58.1857 Error - Bank2.Transaction: Transaction on 01/03/2015 from Ben B to Sam N has a non decimal amount: One Cheeseburger
+2021-07-02 10:28:58.2182 Info - Bank2.ParseTransactionFile: The program has successfully read the file.
+2021-07-02 10:29:06.9551 Info - Bank2.Program: User called List of Ben B's transactions report.
+2021-07-02 10:29:06.9892 Info - Bank2.Program: Ben B's transaction report was given.
+2021-07-02 10:31:36.3952 Info - Bank2.Program: Program started
+2021-07-02 10:31:36.4812 Info - Bank2.ParseTransactionFile: The program has successfully read the file.
+2021-07-02 10:31:36.4812 Error - Bank2.Transaction: Transaction on 01/03/2015 from Ben B to Sam N has a non decimal amount: One Cheeseburger
+2021-07-02 10:31:36.5042 Info - Bank2.ParseTransactionFile: The program has successfully read the file.
+2021-07-02 10:31:39.8581 Info - Bank2.Program: User called all users debts and lends report.
+2021-07-02 11:16:27.0932 Info - Bank2.Program: Program started
+2021-07-02 11:16:41.4902 Info - Bank2.TransactionFileParser: The program has successfully read the file.
+2021-07-02 11:16:47.3040 Info - Bank2.Program: User called all users debts and lends report.
+2021-07-02 11:16:57.6742 Info - Bank2.Program: Program started
+2021-07-02 11:17:00.8116 Info - Bank2.TransactionFileParser: The program has successfully read the file.
+2021-07-02 11:17:03.8178 Info - Bank2.Program: User called all users debts and lends report.

@@ -2,6 +2,7 @@
 using NLog.Config;
 using NLog.Targets;
 using System;
+using System.Collections.Generic;
 
 namespace Bank2
 {
@@ -15,13 +16,25 @@ namespace Bank2
 
             Logger.Info("Program started");
 
-            var pathCSV = "./Data/Transactions2015.csv";
-            var transactionsCSV = ParseTransactionFile.ReadFileCSV(pathCSV);
+            var path = "";
+            var transactions = new List<Transaction>();
+            switch (GetFileOption())
+            {
+                case "1":
+                    path = "./Data/Transactions2013.json";
+                    transactions = TransactionFileParser.ReadFileJSON(path);
+                    break;
+                case "2":
+                    path = "./Data/Transactions2014.csv";
+                    transactions = TransactionFileParser.ReadFileCSV(path);
+                    break;
+                case "3":
+                    path = "./Data/Transactions2015.csv";
+                    transactions = TransactionFileParser.ReadFileCSV(path);
+                    break;
+            }
 
-
-            var pathJSON = "./Data/Transactions2013.json";
-            var transactionsJSON = ParseTransactionFile.ReadFileJSON(pathJSON);
-            var bank = new Bank(transactionsJSON);
+            var bank = new Bank(transactions);
 
             switch (GetReportOption())
             {
@@ -52,6 +65,25 @@ namespace Bank2
             config.AddTarget("File Logger", target);
             config.LoggingRules.Add(new LoggingRule("*", LogLevel.Debug, target));
             LogManager.Configuration = config;
+        }
+
+        private static string GetFileOption()
+        {
+            Console.WriteLine("List of the Transaction files:");
+            Console.WriteLine("1) Transaction2013.json ");
+            Console.WriteLine("2) Transaction2014.csv");
+            Console.WriteLine("3) Transaction2015.csv");
+            Console.WriteLine("4) Transaction2012.xml");
+            Console.Write("Please select the file (1,2,3,4): ");
+            var fileChoice = Console.ReadLine();
+            if (fileChoice is "1" or "2" or "3")
+            {
+                return fileChoice;
+            }
+
+            Logger.Error($"User input an incorrect option, fileChoice: {fileChoice}");
+            Console.WriteLine("Invalid input, try again");
+            return GetFileOption();
         }
 
         private static string GetReportOption()

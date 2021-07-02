@@ -5,9 +5,10 @@ using NLog;
 using System.Linq;
 using Newtonsoft.Json;
 
-namespace Bank2 {
+namespace Bank2
+{
 
-    public class ParseTransactionFile
+    public class TransactionFileParser
     {
         private static readonly ILogger Logger = LogManager.GetCurrentClassLogger();
 
@@ -15,12 +16,9 @@ namespace Bank2 {
         {
             try
             {
-                using (var r = new StreamReader(path))
-                {
-                    var json = r.ReadToEnd();
-                    Logger.Info("The program has successfully read the file.");
-                    return JsonConvert.DeserializeObject<List<Transaction>>(json);
-                }
+                var json = File.ReadAllText(path);
+                Logger.Info("The program has successfully read the file.");
+                return JsonConvert.DeserializeObject<List<Transaction>>(json);
             }
             catch (Exception e)
             {

@@ -14,13 +14,11 @@ namespace Bank2
 
         public Bank (List<Transaction> transactions)
         {
-            //Transactions = ReadFileJSON(path);
-            //Transactions = ReadFile(path);
             Transactions = transactions;
-            Users = GetUsernames();
+            Users = GetUserNames();
         }
 
-        private List<string> GetUsernames()
+        private List<string> GetUserNames()
         {
             var transactionToNames = Transactions.Select(t => t.ToAccount);
             var transactionFromNames = Transactions.Select(t => t.FromAccount);

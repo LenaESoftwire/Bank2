@@ -1,4 +1,5 @@
 using System;
+using Newtonsoft.Json;
 using NLog;
 
 namespace Bank2
@@ -6,10 +7,17 @@ namespace Bank2
     public class Transaction
     {
         private static readonly ILogger Logger = LogManager.GetCurrentClassLogger();
+
         public string Date { get; set; }
+
+        [JsonProperty("FromAccount")]
         public string FromAccount { get; set; }
+
+        [JsonProperty("ToAccount")]
         public string ToAccount { get; set; }
+
         public string Narrative { get; set; }
+
         public decimal Amount { get; set; }
 
         public Transaction()
