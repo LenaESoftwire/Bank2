@@ -11,7 +11,7 @@ namespace Bank2
         private static readonly ILogger Logger = LogManager.GetCurrentClassLogger();
 
         private static void Main()
-        {
+        { 
             SetupLogging();
 
             Logger.Info("Program started");
@@ -21,16 +21,20 @@ namespace Bank2
             switch (GetFileOption())
             {
                 case "1":
-                    path = "./Data/Transactions2013.json";
-                    transactions = TransactionFileParser.ReadFileJSON(path);
+                    path = "./Data/Transactions2012.xml";
+                    TransactionFileParser.GetTransactionsFromXml(path);
                     break;
                 case "2":
-                    path = "./Data/Transactions2014.csv";
-                    transactions = TransactionFileParser.ReadFileCSV(path);
+                    path = "./Data/Transactions2013.json";
+                    transactions = TransactionFileParser.GetTransactionsFromJson(path);
                     break;
                 case "3":
+                    path = "./Data/Transactions2014.csv";
+                    transactions = TransactionFileParser.GetTransactionsFromCsv(path);
+                    break;
+                case "4":
                     path = "./Data/Transactions2015.csv";
-                    transactions = TransactionFileParser.ReadFileCSV(path);
+                    transactions = TransactionFileParser.GetTransactionsFromCsv(path);
                     break;
             }
 
@@ -70,13 +74,13 @@ namespace Bank2
         private static string GetFileOption()
         {
             Console.WriteLine("List of the Transaction files:");
-            Console.WriteLine("1) Transaction2013.json ");
-            Console.WriteLine("2) Transaction2014.csv");
-            Console.WriteLine("3) Transaction2015.csv");
-            Console.WriteLine("4) Transaction2012.xml");
+            Console.WriteLine("1) Transaction2012.xml");
+            Console.WriteLine("2) Transaction2013.json ");
+            Console.WriteLine("3) Transaction2014.csv");
+            Console.WriteLine("4) Transaction2015.csv");
             Console.Write("Please select the file (1,2,3,4): ");
             var fileChoice = Console.ReadLine();
-            if (fileChoice is "1" or "2" or "3")
+            if (fileChoice is "1" or "2" or "3" or "4")
             {
                 return fileChoice;
             }

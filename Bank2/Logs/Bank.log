@@ -233,3 +233,10 @@
 2021-07-02 11:16:57.6742 Info - Bank2.Program: Program started
 2021-07-02 11:17:00.8116 Info - Bank2.TransactionFileParser: The program has successfully read the file.
 2021-07-02 11:17:03.8178 Info - Bank2.Program: User called all users debts and lends report.
+2021-07-02 12:08:46.9339 Info - Bank2.Program: Program started
+2021-07-02 12:32:18.3672 Info - Bank2.Program: Program started
+2021-07-02 12:35:15.3186 Info - Bank2.Program: Program started
+2021-07-02 12:37:31.4707 Info - Bank2.Program: Program started
+2021-07-02 12:40:47.6622 Info - Bank2.Program: Program started
+2021-07-02 12:40:49.5635 Error - Bank2.TransactionFileParser: String '40909' was not recognized as a valid DateTime.
+2021-07-02 12:40:58.3141 Info - Bank2.Program: User called all users debts and lends report.
