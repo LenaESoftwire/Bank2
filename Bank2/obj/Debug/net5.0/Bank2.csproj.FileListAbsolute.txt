@@ -43,3 +43,6 @@ C:\Users\suwtru\training\Bank2\Bank2\bin\Debug\net5.0\Data\Transactions2013.json
 C:\Users\suwtru\training\Bank2\Bank2\bin\Debug\net5.0\Logs\Bank.log
 C:\Users\suwtru\training\Bank2\Bank2\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\suwtru\training\Bank2\Bank2\bin\Debug\net5.0\Data\Transactions2012.xml
+C:\Users\eleevd\Training\Bank2\Bank2\bin\Debug\net5.0\Data\Transactions2013.json
+C:\Users\eleevd\Training\Bank2\Bank2\bin\Debug\net5.0\Data\Transactions2012.xml
+C:\Users\eleevd\Training\Bank2\Bank2\bin\Debug\net5.0\Newtonsoft.Json.dll

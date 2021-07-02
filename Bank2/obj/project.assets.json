@@ -91,28 +91,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\suwtru\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\eleevd\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\suwtru\\training\\Bank2\\Bank2\\Bank2.csproj",
+      "projectUniqueName": "C:\\Users\\eleevd\\Training\\Bank2\\Bank2\\Bank2.csproj",
       "projectName": "Bank2",
-      "projectPath": "C:\\Users\\suwtru\\training\\Bank2\\Bank2\\Bank2.csproj",
-      "packagesPath": "C:\\Users\\suwtru\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\suwtru\\training\\Bank2\\Bank2\\obj\\",
+      "projectPath": "C:\\Users\\eleevd\\Training\\Bank2\\Bank2\\Bank2.csproj",
+      "packagesPath": "C:\\Users\\eleevd\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\eleevd\\Training\\Bank2\\Bank2\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\suwtru\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\eleevd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -164,5 +156,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\eleevd\\Training\\Bank2\\Bank2\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

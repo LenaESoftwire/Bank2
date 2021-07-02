@@ -44,46 +44,35 @@ namespace Bank2
             };
         }
 
-        public static void GetTransactionsFromXml(string path)
+        public static List<Transaction> GetTransactionsFromXml(string path)
         {
             try
             {
-                XmlReader xmlReader = new XmlTextReader(path);
-                while (xmlReader.Read())
+                var xmlFile = new XmlDocument();
+                xmlFile.Load(path);
+
+                var nodes = xmlFile.SelectNodes("TransactionList/SupportTransaction");
+                var transactions = new List<Transaction>();
+
+                foreach (XmlElement node in nodes)
                 {
-                    if ((xmlReader.NodeType == XmlNodeType.Element) && (xmlReader.Name == "SupportTransaction"))
-                    {
-                        if (xmlReader.HasAttributes)
-                            Console.WriteLine("Date: " + xmlReader.GetAttribute("Date"));
-                    }
-                   
-                    if ((xmlReader.NodeType == XmlNodeType.Element) && (xmlReader.Name == "From"))
-                    {
-                        Console.WriteLine("From: " + xmlReader.ReadInnerXml());
-                    }
+                    var transactionInfo = new string[5];
+                    transactionInfo[0] = node.GetAttribute("Date");
+                    transactionInfo[1] = node.SelectSingleNode("Description")?.InnerText;
+                    transactionInfo[2] = node.SelectSingleNode("Value")?.InnerText;
+                    transactionInfo[3] = node.SelectSingleNode("Parties/From")?.InnerText;
+                    transactionInfo[4] = node.SelectSingleNode("Parties/From")?.InnerText;
+                    var transaction = new Transaction(transactionInfo);
 
-                    if ((xmlReader.NodeType == XmlNodeType.Element) && (xmlReader.Name == "To"))
-                    {
-                        Console.WriteLine("To: " + xmlReader.ReadInnerXml());
-                    }
-
-                    if ((xmlReader.NodeType == XmlNodeType.Element) && (xmlReader.Name == "Description"))
-                    {
-                        Console.WriteLine("Narrative: " + xmlReader.ReadInnerXml());
-                    }
-
-                    if ((xmlReader.NodeType == XmlNodeType.Element) && (xmlReader.Name == "Value"))
-                    {
-                        Console.WriteLine("Amount: " + xmlReader.ReadInnerXml());
-                    }
+                    transactions.Add(transaction);
                 }
-                //XmlTextReader xmlReader = new XmlTextReader(path);
+                return transactions;
                
             }
             catch (Exception e)
             {
                 Logger.Error(e.Message);
-                //return new List<Transaction>();
+                return new List<Transaction>();
             };
         }
     }
