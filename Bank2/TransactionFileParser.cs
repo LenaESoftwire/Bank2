@@ -64,10 +64,11 @@ namespace Bank2
                     transactionInfo[2] = node.SelectSingleNode("Parties/To")?.InnerText;
             
                     var transaction = new Transaction(transactionInfo);
-                    Console.WriteLine($"{transaction.Date} {transaction.FromAccount} {transaction.ToAccount} {transaction.Narrative}{transaction.Amount}");
+                    //Console.WriteLine($"{transaction.Date} {transaction.FromAccount} {transaction.ToAccount} {transaction.Narrative}{transaction.Amount}");
 
                     transactions.Add(transaction);
                 }
+                //Console.WriteLine(transactions.Count);
                 return transactions;
                
             }

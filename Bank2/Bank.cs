@@ -1,14 +1,11 @@
 using System;
 using System.Collections.Generic;
-using System.IO;
-using NLog;
 using System.Linq;
 
 namespace Bank2
 {
     public class Bank
     {
-        private static readonly ILogger Logger = LogManager.GetCurrentClassLogger();
         public List<Transaction> Transactions { get; set; } 
         public List<string> Users { get; set; }
 

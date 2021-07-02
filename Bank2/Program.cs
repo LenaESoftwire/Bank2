@@ -16,13 +16,13 @@ namespace Bank2
 
             Logger.Info("Program started");
 
-            var path = "";
+            string path;
             var transactions = new List<Transaction>();
             switch (GetFileOption())
             {
                 case "1":
                     path = "./Data/Transactions2012.xml";
-                    TransactionFileParser.GetTransactionsFromXml(path);
+                    transactions = TransactionFileParser.GetTransactionsFromXml(path);
                     break;
                 case "2":
                     path = "./Data/Transactions2013.json";
@@ -39,6 +39,8 @@ namespace Bank2
             }
 
             var bank = new Bank(transactions);
+            Console.WriteLine(bank.Transactions.Count);
+            Console.WriteLine(transactions.Count);
 
             switch (GetReportOption())
             {

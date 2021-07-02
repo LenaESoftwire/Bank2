@@ -867,3 +867,12 @@
 2021-07-02 15:59:31.9088 Info - Bank2.TransactionFileParser: The program has successfully read the file.
 2021-07-02 15:59:37.8832 Info - Bank2.Program: User called List of Jon A's transactions report.
 2021-07-02 15:59:37.8892 Info - Bank2.Program: Jon A's transaction report was given.
+2021-07-02 16:09:22.8822 Info - Bank2.Program: Program started
+2021-07-02 16:09:30.5959 Info - Bank2.Program: User called all users debts and lends report.
+2021-07-02 16:11:24.7171 Info - Bank2.Program: Program started
+2021-07-02 16:11:35.7603 Info - Bank2.Program: User called all users debts and lends report.
+2021-07-02 16:18:05.5169 Info - Bank2.Program: Program started
+2021-07-02 16:18:30.4753 Info - Bank2.Program: User called all users debts and lends report.
+2021-07-02 16:19:16.2658 Info - Bank2.Program: Program started
+2021-07-02 16:19:29.5641 Info - Bank2.Program: User called List of Ben B's transactions report.
+2021-07-02 16:19:29.5725 Info - Bank2.Program: Ben B's transaction report was given.
