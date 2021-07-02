@@ -58,11 +58,13 @@ namespace Bank2
                 {
                     var transactionInfo = new string[5];
                     transactionInfo[0] = node.GetAttribute("Date");
-                    transactionInfo[1] = node.SelectSingleNode("Description")?.InnerText;
-                    transactionInfo[2] = node.SelectSingleNode("Value")?.InnerText;
-                    transactionInfo[3] = node.SelectSingleNode("Parties/From")?.InnerText;
-                    transactionInfo[4] = node.SelectSingleNode("Parties/From")?.InnerText;
+                    transactionInfo[3] = node.SelectSingleNode("Description")?.InnerText;
+                    transactionInfo[4] = node.SelectSingleNode("Value")?.InnerText;
+                    transactionInfo[1] = node.SelectSingleNode("Parties/From")?.InnerText;
+                    transactionInfo[2] = node.SelectSingleNode("Parties/To")?.InnerText;
+            
                     var transaction = new Transaction(transactionInfo);
+                    Console.WriteLine($"{transaction.Date} {transaction.FromAccount} {transaction.ToAccount} {transaction.Narrative}{transaction.Amount}");
 
                     transactions.Add(transaction);
                 }

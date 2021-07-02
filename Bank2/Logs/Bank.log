@@ -553,3 +553,317 @@
 2021-07-02 15:02:12.0103 Info - Bank2.Program: User called List of Ben B's transactions report.
 2021-07-02 15:02:12.0103 Error - Bank2.Program: Ben B does not exist in our database... sorry...
 2021-07-02 15:02:16.7212 Error - Bank2.Program: User decided not to continue
+2021-07-02 15:46:30.8792 Info - Bank2.Program: Program started
+2021-07-02 15:46:34.1103 Error - Bank2.Transaction: Transaction on 40909 from Snooker Night to 9.22 has a non decimal amount: Gergana I
+2021-07-02 15:46:34.1103 Error - Bank2.Transaction: Transaction on 40910 from Coffee to 6.98 has a non decimal amount: Sam N
+2021-07-02 15:46:34.1103 Error - Bank2.Transaction: Transaction on 40914 from Lunch to 10.67 has a non decimal amount: Stephen S
+2021-07-02 15:46:34.1204 Error - Bank2.Transaction: Transaction on 40915 from Misc Morale to 7.19 has a non decimal amount: Rob S
+2021-07-02 15:46:34.1204 Error - Bank2.Transaction: Transaction on 40917 from Fantasy Football to 10.73 has a non decimal amount: Tim L
+2021-07-02 15:46:34.1204 Error - Bank2.Transaction: Transaction on 40920 from Automated Testing Services to 10.1 has a non decimal amount: Tim L
+2021-07-02 15:46:34.1204 Error - Bank2.Transaction: Transaction on 40922 from Beers to 1.79 has a non decimal amount: Sarah T
+2021-07-02 15:46:34.1362 Error - Bank2.Transaction: Transaction on 40925 from Beers to 11.1 has a non decimal amount: Dan W
+2021-07-02 15:46:34.1362 Error - Bank2.Transaction: Transaction on 40926 from Coffee to 10.89 has a non decimal amount: Chris W
+2021-07-02 15:46:34.1362 Error - Bank2.Transaction: Transaction on 40928 from Pokemon Training to 3.12 has a non decimal amount: Chris W
+2021-07-02 15:46:34.1362 Error - Bank2.Transaction: Transaction on 40932 from Snooker Night to 2.29 has a non decimal amount: Rob S
+2021-07-02 15:46:34.1505 Error - Bank2.Transaction: Transaction on 40933 from Spline Reticulation to 7.32 has a non decimal amount: Chris W
+2021-07-02 15:46:34.1505 Error - Bank2.Transaction: Transaction on 40936 from Stationary Items to 6.1 has a non decimal amount: Stephen S
+2021-07-02 15:46:34.1505 Error - Bank2.Transaction: Transaction on 40937 from Lunch to 7.72 has a non decimal amount: Stephen S
+2021-07-02 15:46:34.1505 Error - Bank2.Transaction: Transaction on 40939 from Misc Morale to 5.2 has a non decimal amount: Stephen S
+2021-07-02 15:46:34.1659 Error - Bank2.Transaction: Transaction on 40941 from Pokemon Training to 4.67 has a non decimal amount: Sam N
+2021-07-02 15:46:34.1659 Error - Bank2.Transaction: Transaction on 40944 from Coffee to 11.72 has a non decimal amount: Ben B
+2021-07-02 15:46:34.1659 Error - Bank2.Transaction: Transaction on 40948 from Pokemon Training to 6.45 has a non decimal amount: Rob S
+2021-07-02 15:46:34.1659 Error - Bank2.Transaction: Transaction on 40952 from Sandcastle Help to 8.46 has a non decimal amount: Todd
+2021-07-02 15:46:34.1841 Error - Bank2.Transaction: Transaction on 40955 from Lunch to 10.36 has a non decimal amount: Laura B
+2021-07-02 15:46:34.1841 Error - Bank2.Transaction: Transaction on 40959 from Pokemon Training to 3.88 has a non decimal amount: Chris W
+2021-07-02 15:46:34.1841 Error - Bank2.Transaction: Transaction on 40962 from Beers to 9.81 has a non decimal amount: Sam N
+2021-07-02 15:46:34.1841 Error - Bank2.Transaction: Transaction on 40963 from Lunch to 3.67 has a non decimal amount: Gergana I
+2021-07-02 15:46:34.1971 Error - Bank2.Transaction: Transaction on 40965 from Lunch to 0.63 has a non decimal amount: Dan W
+2021-07-02 15:46:34.1971 Error - Bank2.Transaction: Transaction on 40969 from Jenkins Fees to 2.61 has a non decimal amount: Tim L
+2021-07-02 15:46:34.1971 Error - Bank2.Transaction: Transaction on 40971 from Coffee to 4.85 has a non decimal amount: Rob S
+2021-07-02 15:46:34.1971 Error - Bank2.Transaction: Transaction on 40975 from Lunch to 3.14 has a non decimal amount: Stephen S
+2021-07-02 15:46:34.1971 Error - Bank2.Transaction: Transaction on 40979 from Arcade Social to 9.01 has a non decimal amount: Gergana I
+2021-07-02 15:46:34.2149 Error - Bank2.Transaction: Transaction on 40980 from Lego Assistance to 6.33 has a non decimal amount: Gergana I
+2021-07-02 15:46:34.2149 Error - Bank2.Transaction: Transaction on 40984 from Misc Morale to 11.84 has a non decimal amount: Dan W
+2021-07-02 15:46:34.2149 Error - Bank2.Transaction: Transaction on 40986 from Spline Reticulation to 9.1 has a non decimal amount: Jon A
+2021-07-02 15:46:34.2149 Error - Bank2.Transaction: Transaction on 40989 from Coffee to 8.41 has a non decimal amount: Stephen S
+2021-07-02 15:46:34.2360 Error - Bank2.Transaction: Transaction on 40993 from Lunch to 2.38 has a non decimal amount: Stephen S
+2021-07-02 15:46:34.2360 Error - Bank2.Transaction: Transaction on 40997 from Snooker Night to 1.9 has a non decimal amount: Gergana I
+2021-07-02 15:46:34.2439 Error - Bank2.Transaction: Transaction on 40998 from Sandcastle Help to 1.89 has a non decimal amount: Sarah T
+2021-07-02 15:46:34.2439 Error - Bank2.Transaction: Transaction on 40999 from Stationary Items to 3.8 has a non decimal amount: Laura B
+2021-07-02 15:46:34.2439 Error - Bank2.Transaction: Transaction on 41001 from Fantasy Football to 11.63 has a non decimal amount: Dan W
+2021-07-02 15:46:34.2439 Error - Bank2.Transaction: Transaction on 41003 from Misc Morale to 7.32 has a non decimal amount: Dan W
+2021-07-02 15:46:34.2439 Error - Bank2.Transaction: Transaction on 41004 from Audit and Other Financial Services to 6.06 has a non decimal amount: Sam N
+2021-07-02 15:46:34.2624 Error - Bank2.Transaction: Transaction on 41007 from Arcade Social to 11.17 has a non decimal amount: Tim L
+2021-07-02 15:46:34.2624 Error - Bank2.Transaction: Transaction on 41009 from Lego Assistance to 5.49 has a non decimal amount: Sarah T
+2021-07-02 15:46:34.2624 Error - Bank2.Transaction: Transaction on 41011 from Git-Fu Rendered to 0.8 has a non decimal amount: Gergana I
+2021-07-02 15:46:34.2624 Error - Bank2.Transaction: Transaction on 41012 from Lunch to 5.43 has a non decimal amount: Sam N
+2021-07-02 15:46:34.2624 Error - Bank2.Transaction: Transaction on 41013 from Lunch to 10.46 has a non decimal amount: Laura B
+2021-07-02 15:46:34.2798 Error - Bank2.Transaction: Transaction on 41015 from Beers to 11.7 has a non decimal amount: Laura B
+2021-07-02 15:46:34.2798 Error - Bank2.Transaction: Transaction on 41019 from Pokemon Training to 11.09 has a non decimal amount: Stephen S
+2021-07-02 15:46:34.2798 Error - Bank2.Transaction: Transaction on 41022 from Audit and Other Financial Services to 8.44 has a non decimal amount: Todd
+2021-07-02 15:46:34.2798 Error - Bank2.Transaction: Transaction on 41026 from Fantasy Football to 0.93 has a non decimal amount: Laura B
+2021-07-02 15:46:34.2923 Error - Bank2.Transaction: Transaction on 41028 from Jenkins Fees to 8.17 has a non decimal amount: Laura B
+2021-07-02 15:46:34.2923 Error - Bank2.Transaction: Transaction on 41029 from Automated Testing Services to 4.79 has a non decimal amount: Jon A
+2021-07-02 15:46:34.2923 Error - Bank2.Transaction: Transaction on 41031 from Snooker Night to 8.24 has a non decimal amount: Sarah T
+2021-07-02 15:46:34.2923 Error - Bank2.Transaction: Transaction on 41035 from Coffee to 9.17 has a non decimal amount: Gergana I
+2021-07-02 15:46:34.3054 Error - Bank2.Transaction: Transaction on 41038 from Pokemon Training to 11.4 has a non decimal amount: Todd
+2021-07-02 15:46:34.3054 Error - Bank2.Transaction: Transaction on 41039 from Sandbox Help to 1.55 has a non decimal amount: Sam N
+2021-07-02 15:46:34.3054 Error - Bank2.Transaction: Transaction on 41042 from Lunch to 4.3 has a non decimal amount: Chris W
+2021-07-02 15:46:34.3054 Error - Bank2.Transaction: Transaction on 41046 from Automated Testing Services to 8.6 has a non decimal amount: Rob S
+2021-07-02 15:46:34.3054 Error - Bank2.Transaction: Transaction on 41050 from Fantasy Football to 10.88 has a non decimal amount: Todd
+2021-07-02 15:46:34.3247 Error - Bank2.Transaction: Transaction on 41054 from Misc Morale to 5.19 has a non decimal amount: Sarah T
+2021-07-02 15:46:34.3247 Error - Bank2.Transaction: Transaction on 41057 from White Water Rafting to 10.73 has a non decimal amount: Tim L
+2021-07-02 15:46:34.3380 Error - Bank2.Transaction: Transaction on 41060 from Arcade Social to 10.73 has a non decimal amount: Gergana I
+2021-07-02 15:46:34.3380 Error - Bank2.Transaction: Transaction on 41061 from Spline Reticulation to 10.84 has a non decimal amount: Chris W
+2021-07-02 15:46:34.3380 Error - Bank2.Transaction: Transaction on 41062 from Coffee to 3.51 has a non decimal amount: Laura B
+2021-07-02 15:46:34.3520 Error - Bank2.Transaction: Transaction on 41064 from Automated Testing Services to 1.78 has a non decimal amount: Sarah T
+2021-07-02 15:46:34.3520 Error - Bank2.Transaction: Transaction on 41067 from Lunch to 3.11 has a non decimal amount: Dan W
+2021-07-02 15:46:34.3520 Error - Bank2.Transaction: Transaction on 41071 from Lego Assistance to 3.75 has a non decimal amount: Sarah T
+2021-07-02 15:46:34.3520 Error - Bank2.Transaction: Transaction on 41074 from Misc Morale to 4.15 has a non decimal amount: Todd
+2021-07-02 15:46:34.3520 Error - Bank2.Transaction: Transaction on 41078 from Stationary Items to 9.43 has a non decimal amount: Laura B
+2021-07-02 15:46:34.3704 Error - Bank2.Transaction: Transaction on 41079 from Golf Bets to 1.45 has a non decimal amount: Ben B
+2021-07-02 15:46:34.3704 Error - Bank2.Transaction: Transaction on 41081 from Lunch to 8.71 has a non decimal amount: Laura B
+2021-07-02 15:46:34.3704 Error - Bank2.Transaction: Transaction on 41082 from Lunch to 4.8 has a non decimal amount: Stephen S
+2021-07-02 15:46:34.3837 Error - Bank2.Transaction: Transaction on 41085 from Misc Morale to 6.57 has a non decimal amount: Dan W
+2021-07-02 15:46:34.3837 Error - Bank2.Transaction: Transaction on 41087 from Sandcastle Help to 10.78 has a non decimal amount: Chris W
+2021-07-02 15:46:34.3837 Error - Bank2.Transaction: Transaction on 41089 from Poker Winnings to 0.52 has a non decimal amount: Laura B
+2021-07-02 15:46:34.3837 Error - Bank2.Transaction: Transaction on 41091 from Pokemon Training to 10.86 has a non decimal amount: Stephen S
+2021-07-02 15:46:34.4046 Error - Bank2.Transaction: Transaction on 41095 from Snooker Night to 7.98 has a non decimal amount: Jon A
+2021-07-02 15:46:34.4046 Error - Bank2.Transaction: Transaction on 41096 from Jenkins Fees to 7.6 has a non decimal amount: Sarah T
+2021-07-02 15:46:34.4177 Error - Bank2.Transaction: Transaction on 41097 from Git-Fu Rendered to 7.73 has a non decimal amount: Laura B
+2021-07-02 15:46:34.4177 Error - Bank2.Transaction: Transaction on 41099 from Misc Morale to 9.1 has a non decimal amount: Tim L
+2021-07-02 15:46:34.4177 Error - Bank2.Transaction: Transaction on 41103 from Golf Bets to 1.2 has a non decimal amount: Jon A
+2021-07-02 15:46:34.4177 Error - Bank2.Transaction: Transaction on 41104 from Pokemon Training to 3.57 has a non decimal amount: Tim L
+2021-07-02 15:46:34.4177 Error - Bank2.Transaction: Transaction on 41106 from Services Rendered to 1.33 has a non decimal amount: Ben B
+2021-07-02 15:46:34.4318 Error - Bank2.Transaction: Transaction on 41108 from Coffee to 8.55 has a non decimal amount: Stephen S
+2021-07-02 15:46:34.4318 Error - Bank2.Transaction: Transaction on 41112 from Lego Assistance to 10.01 has a non decimal amount: Jon A
+2021-07-02 15:46:34.4318 Error - Bank2.Transaction: Transaction on 41113 from Beers to 5.83 has a non decimal amount: Jon A
+2021-07-02 15:46:34.4318 Error - Bank2.Transaction: Transaction on 41114 from Coffee to 10.52 has a non decimal amount: Rob S
+2021-07-02 15:46:34.4508 Error - Bank2.Transaction: Transaction on 41116 from Jenkins Fees to 11.59 has a non decimal amount: Todd
+2021-07-02 15:46:34.4508 Error - Bank2.Transaction: Transaction on 41117 from Coffee to 9.47 has a non decimal amount: Jon A
+2021-07-02 15:46:34.4508 Error - Bank2.Transaction: Transaction on 41120 from Misc Morale to 4.34 has a non decimal amount: Rob S
+2021-07-02 15:46:34.4635 Error - Bank2.Transaction: Transaction on 41124 from Lunch to 10.41 has a non decimal amount: Stephen S
+2021-07-02 15:46:34.4635 Error - Bank2.Transaction: Transaction on 41126 from Sandbox Help to 2.12 has a non decimal amount: Tim L
+2021-07-02 15:46:34.4635 Error - Bank2.Transaction: Transaction on 41130 from Snooker Night to 1.74 has a non decimal amount: Laura B
+2021-07-02 15:46:34.4771 Error - Bank2.Transaction: Transaction on 41131 from Misc Morale to 1.92 has a non decimal amount: Chris W
+2021-07-02 15:46:34.4771 Error - Bank2.Transaction: Transaction on 41132 from Rails Consultancy to 3.2 has a non decimal amount: Chris W
+2021-07-02 15:46:34.4771 Error - Bank2.Transaction: Transaction on 41133 from Beers to 5.38 has a non decimal amount: Chris W
+2021-07-02 15:46:34.4771 Error - Bank2.Transaction: Transaction on 41134 from Automated Testing Services to 8.57 has a non decimal amount: Todd
+2021-07-02 15:46:34.4771 Error - Bank2.Transaction: Transaction on 41135 from White Water Rafting to 8.85 has a non decimal amount: Sarah T
+2021-07-02 15:46:34.4771 Error - Bank2.Transaction: Transaction on 41139 from Misc Morale to 11.22 has a non decimal amount: Laura B
+2021-07-02 15:46:34.4931 Error - Bank2.Transaction: Transaction on 41142 from Coffee to 0.58 has a non decimal amount: Dan W
+2021-07-02 15:46:34.4931 Error - Bank2.Transaction: Transaction on 41145 from Audit and Other Financial Services to 10.69 has a non decimal amount: Sarah T
+2021-07-02 15:46:34.4931 Error - Bank2.Transaction: Transaction on 41147 from Coffee to 7.72 has a non decimal amount: Sarah T
+2021-07-02 15:46:34.5126 Error - Bank2.Transaction: Transaction on 41148 from Services Rendered to 9.11 has a non decimal amount: Tim L
+2021-07-02 15:46:34.5126 Error - Bank2.Transaction: Transaction on 41151 from Fantasy Football to 8.65 has a non decimal amount: Tim L
+2021-07-02 15:46:34.5126 Error - Bank2.Transaction: Transaction on 41154 from Coffee to 8.36 has a non decimal amount: Sarah T
+2021-07-02 15:46:34.5303 Error - Bank2.Transaction: Transaction on 41155 from Snooker Night to 3.57 has a non decimal amount: Todd
+2021-07-02 15:46:34.5303 Error - Bank2.Transaction: Transaction on 41156 from Pokemon Training to 10.2 has a non decimal amount: Dan W
+2021-07-02 15:46:34.5405 Error - Bank2.Transaction: Transaction on 41159 from Jenkins Fees to 7.89 has a non decimal amount: Stephen S
+2021-07-02 15:46:34.5405 Error - Bank2.Transaction: Transaction on 41163 from Lunch to 4.41 has a non decimal amount: Sarah T
+2021-07-02 15:46:34.5405 Error - Bank2.Transaction: Transaction on 41165 from Git-Fu Rendered to 10.89 has a non decimal amount: Todd
+2021-07-02 15:46:34.5564 Error - Bank2.Transaction: Transaction on 41169 from Lunch to 0.64 has a non decimal amount: Stephen S
+2021-07-02 15:46:34.5564 Error - Bank2.Transaction: Transaction on 41172 from Beers to 10.25 has a non decimal amount: Sam N
+2021-07-02 15:46:34.5564 Error - Bank2.Transaction: Transaction on 41174 from Sandcastle Help to 4.73 has a non decimal amount: Rob S
+2021-07-02 15:46:34.5564 Error - Bank2.Transaction: Transaction on 41178 from Golf Bets to 11.83 has a non decimal amount: Todd
+2021-07-02 15:46:34.5723 Error - Bank2.Transaction: Transaction on 41181 from Lunch to 4.42 has a non decimal amount: Tim L
+2021-07-02 15:46:34.5723 Error - Bank2.Transaction: Transaction on 41184 from Coffee to 3.66 has a non decimal amount: Jon A
+2021-07-02 15:46:34.5723 Error - Bank2.Transaction: Transaction on 41187 from Lunch to 10.25 has a non decimal amount: Laura B
+2021-07-02 15:46:34.5723 Error - Bank2.Transaction: Transaction on 41191 from Lunch to 2.48 has a non decimal amount: Chris W
+2021-07-02 15:46:34.5879 Error - Bank2.Transaction: Transaction on 41194 from Lunch to 10.62 has a non decimal amount: Laura B
+2021-07-02 15:46:34.5879 Error - Bank2.Transaction: Transaction on 41198 from Misc Morale to 9.01 has a non decimal amount: Jon A
+2021-07-02 15:46:34.5879 Error - Bank2.Transaction: Transaction on 41199 from Audit and Other Financial Services to 10.6 has a non decimal amount: Ben B
+2021-07-02 15:46:34.5879 Error - Bank2.Transaction: Transaction on 41200 from Beers to 4.34 has a non decimal amount: Todd
+2021-07-02 15:46:34.5879 Error - Bank2.Transaction: Transaction on 41203 from Sandcastle Help to 10.4 has a non decimal amount: Todd
+2021-07-02 15:46:34.6073 Error - Bank2.Transaction: Transaction on 41204 from Coffee to 2.13 has a non decimal amount: Sam N
+2021-07-02 15:46:34.6073 Error - Bank2.Transaction: Transaction on 41207 from Beers to 6.22 has a non decimal amount: Dan W
+2021-07-02 15:46:34.6195 Error - Bank2.Transaction: Transaction on 41209 from Coffee to 9.29 has a non decimal amount: Gergana I
+2021-07-02 15:46:34.6195 Error - Bank2.Transaction: Transaction on 41211 from Coffee to 11.07 has a non decimal amount: Dan W
+2021-07-02 15:46:34.6399 Error - Bank2.Transaction: Transaction on 41215 from Coffee to 7.83 has a non decimal amount: Ben B
+2021-07-02 15:46:34.6399 Error - Bank2.Transaction: Transaction on 41216 from Golf Bets to 5.18 has a non decimal amount: Sarah T
+2021-07-02 15:46:34.6539 Error - Bank2.Transaction: Transaction on 41218 from Beers to 6.66 has a non decimal amount: Sam N
+2021-07-02 15:46:34.6539 Error - Bank2.Transaction: Transaction on 41222 from Pokemon Training to 3.74 has a non decimal amount: Tim L
+2021-07-02 15:46:34.6688 Error - Bank2.Transaction: Transaction on 41226 from Coffee to 11.93 has a non decimal amount: Tim L
+2021-07-02 15:46:34.6688 Error - Bank2.Transaction: Transaction on 41228 from Lunch to 2.99 has a non decimal amount: Jon A
+2021-07-02 15:46:34.6806 Error - Bank2.Transaction: Transaction on 41229 from Automated Testing Services to 5.95 has a non decimal amount: Stephen S
+2021-07-02 15:46:34.6806 Error - Bank2.Transaction: Transaction on 41232 from Coffee to 7.08 has a non decimal amount: Dan W
+2021-07-02 15:46:34.6806 Error - Bank2.Transaction: Transaction on 41235 from Git-Fu Rendered to 6.63 has a non decimal amount: Rob S
+2021-07-02 15:46:34.6806 Error - Bank2.Transaction: Transaction on 41236 from Lego Assistance to 0.92 has a non decimal amount: Dan W
+2021-07-02 15:46:34.6806 Error - Bank2.Transaction: Transaction on 41239 from Coffee to 1.49 has a non decimal amount: Rob S
+2021-07-02 15:46:34.6969 Error - Bank2.Transaction: Transaction on 41240 from Services Rendered to 10.78 has a non decimal amount: Chris W
+2021-07-02 15:46:34.6969 Error - Bank2.Transaction: Transaction on 41243 from Git-Fu Rendered to 4.53 has a non decimal amount: Chris W
+2021-07-02 15:46:34.6969 Error - Bank2.Transaction: Transaction on 41244 from Misc Morale to 2.92 has a non decimal amount: Gergana I
+2021-07-02 15:46:34.7144 Error - Bank2.Transaction: Transaction on 41247 from Jenkins Fees to 7.88 has a non decimal amount: Jon A
+2021-07-02 15:46:34.7144 Error - Bank2.Transaction: Transaction on 41251 from Coffee to 9.31 has a non decimal amount: Tim L
+2021-07-02 15:46:34.7144 Error - Bank2.Transaction: Transaction on 41254 from Rails Consultancy to 2.44 has a non decimal amount: Sam N
+2021-07-02 15:46:34.7284 Error - Bank2.Transaction: Transaction on 41255 from Stationary Items to 8.89 has a non decimal amount: Sarah T
+2021-07-02 15:46:34.7284 Error - Bank2.Transaction: Transaction on 41259 from Spline Reticulation to 8.73 has a non decimal amount: Tim L
+2021-07-02 15:46:34.7284 Error - Bank2.Transaction: Transaction on 41261 from Lunch to 10.28 has a non decimal amount: Sarah T
+2021-07-02 15:46:34.7479 Error - Bank2.Transaction: Transaction on 41265 from Lego Assistance to 6.07 has a non decimal amount: Stephen S
+2021-07-02 15:46:34.7479 Error - Bank2.Transaction: Transaction on 41269 from Coffee to 6.28 has a non decimal amount: Tim L
+2021-07-02 15:46:34.7479 Error - Bank2.Transaction: Transaction on 41271 from Automated Testing Services to 10.98 has a non decimal amount: Rob S
+2021-07-02 15:46:34.7479 Error - Bank2.Transaction: Transaction on 41273 from Services Rendered to 0.77 has a non decimal amount: Tim L
+2021-07-02 15:46:44.0835 Info - Bank2.Program: User called all users debts and lends report.
+2021-07-02 15:47:33.2814 Info - Bank2.Program: Program started
+2021-07-02 15:47:36.3175 Error - Bank2.Transaction: Transaction on 40909 from Snooker Night to 9.22 has a non decimal amount: Gergana I
+2021-07-02 15:47:36.3175 Error - Bank2.Transaction: Transaction on 40910 from Coffee to 6.98 has a non decimal amount: Sam N
+2021-07-02 15:47:36.3175 Error - Bank2.Transaction: Transaction on 40914 from Lunch to 10.67 has a non decimal amount: Stephen S
+2021-07-02 15:47:36.3244 Error - Bank2.Transaction: Transaction on 40915 from Misc Morale to 7.19 has a non decimal amount: Rob S
+2021-07-02 15:47:36.3244 Error - Bank2.Transaction: Transaction on 40917 from Fantasy Football to 10.73 has a non decimal amount: Tim L
+2021-07-02 15:47:36.3244 Error - Bank2.Transaction: Transaction on 40920 from Automated Testing Services to 10.1 has a non decimal amount: Tim L
+2021-07-02 15:47:36.3244 Error - Bank2.Transaction: Transaction on 40922 from Beers to 1.79 has a non decimal amount: Sarah T
+2021-07-02 15:47:36.3375 Error - Bank2.Transaction: Transaction on 40925 from Beers to 11.1 has a non decimal amount: Dan W
+2021-07-02 15:47:36.3375 Error - Bank2.Transaction: Transaction on 40926 from Coffee to 10.89 has a non decimal amount: Chris W
+2021-07-02 15:47:36.3375 Error - Bank2.Transaction: Transaction on 40928 from Pokemon Training to 3.12 has a non decimal amount: Chris W
+2021-07-02 15:47:36.3533 Error - Bank2.Transaction: Transaction on 40932 from Snooker Night to 2.29 has a non decimal amount: Rob S
+2021-07-02 15:47:36.3533 Error - Bank2.Transaction: Transaction on 40933 from Spline Reticulation to 7.32 has a non decimal amount: Chris W
+2021-07-02 15:47:36.3533 Error - Bank2.Transaction: Transaction on 40936 from Stationary Items to 6.1 has a non decimal amount: Stephen S
+2021-07-02 15:47:36.3533 Error - Bank2.Transaction: Transaction on 40937 from Lunch to 7.72 has a non decimal amount: Stephen S
+2021-07-02 15:47:36.3533 Error - Bank2.Transaction: Transaction on 40939 from Misc Morale to 5.2 has a non decimal amount: Stephen S
+2021-07-02 15:47:36.3724 Error - Bank2.Transaction: Transaction on 40941 from Pokemon Training to 4.67 has a non decimal amount: Sam N
+2021-07-02 15:47:36.3724 Error - Bank2.Transaction: Transaction on 40944 from Coffee to 11.72 has a non decimal amount: Ben B
+2021-07-02 15:47:36.3724 Error - Bank2.Transaction: Transaction on 40948 from Pokemon Training to 6.45 has a non decimal amount: Rob S
+2021-07-02 15:47:36.3864 Error - Bank2.Transaction: Transaction on 40952 from Sandcastle Help to 8.46 has a non decimal amount: Todd
+2021-07-02 15:47:36.3864 Error - Bank2.Transaction: Transaction on 40955 from Lunch to 10.36 has a non decimal amount: Laura B
+2021-07-02 15:47:36.3864 Error - Bank2.Transaction: Transaction on 40959 from Pokemon Training to 3.88 has a non decimal amount: Chris W
+2021-07-02 15:47:36.3864 Error - Bank2.Transaction: Transaction on 40962 from Beers to 9.81 has a non decimal amount: Sam N
+2021-07-02 15:47:36.4018 Error - Bank2.Transaction: Transaction on 40963 from Lunch to 3.67 has a non decimal amount: Gergana I
+2021-07-02 15:47:36.4018 Error - Bank2.Transaction: Transaction on 40965 from Lunch to 0.63 has a non decimal amount: Dan W
+2021-07-02 15:47:36.4018 Error - Bank2.Transaction: Transaction on 40969 from Jenkins Fees to 2.61 has a non decimal amount: Tim L
+2021-07-02 15:47:36.4018 Error - Bank2.Transaction: Transaction on 40971 from Coffee to 4.85 has a non decimal amount: Rob S
+2021-07-02 15:47:36.4018 Error - Bank2.Transaction: Transaction on 40975 from Lunch to 3.14 has a non decimal amount: Stephen S
+2021-07-02 15:47:36.4206 Error - Bank2.Transaction: Transaction on 40979 from Arcade Social to 9.01 has a non decimal amount: Gergana I
+2021-07-02 15:47:36.4206 Error - Bank2.Transaction: Transaction on 40980 from Lego Assistance to 6.33 has a non decimal amount: Gergana I
+2021-07-02 15:47:36.4206 Error - Bank2.Transaction: Transaction on 40984 from Misc Morale to 11.84 has a non decimal amount: Dan W
+2021-07-02 15:47:36.4362 Error - Bank2.Transaction: Transaction on 40986 from Spline Reticulation to 9.1 has a non decimal amount: Jon A
+2021-07-02 15:47:36.4362 Error - Bank2.Transaction: Transaction on 40989 from Coffee to 8.41 has a non decimal amount: Stephen S
+2021-07-02 15:47:36.4362 Error - Bank2.Transaction: Transaction on 40993 from Lunch to 2.38 has a non decimal amount: Stephen S
+2021-07-02 15:47:36.4508 Error - Bank2.Transaction: Transaction on 40997 from Snooker Night to 1.9 has a non decimal amount: Gergana I
+2021-07-02 15:47:36.4508 Error - Bank2.Transaction: Transaction on 40998 from Sandcastle Help to 1.89 has a non decimal amount: Sarah T
+2021-07-02 15:47:36.4508 Error - Bank2.Transaction: Transaction on 40999 from Stationary Items to 3.8 has a non decimal amount: Laura B
+2021-07-02 15:47:36.4660 Error - Bank2.Transaction: Transaction on 41001 from Fantasy Football to 11.63 has a non decimal amount: Dan W
+2021-07-02 15:47:36.4660 Error - Bank2.Transaction: Transaction on 41003 from Misc Morale to 7.32 has a non decimal amount: Dan W
+2021-07-02 15:47:36.4660 Error - Bank2.Transaction: Transaction on 41004 from Audit and Other Financial Services to 6.06 has a non decimal amount: Sam N
+2021-07-02 15:47:36.4811 Error - Bank2.Transaction: Transaction on 41007 from Arcade Social to 11.17 has a non decimal amount: Tim L
+2021-07-02 15:47:36.4811 Error - Bank2.Transaction: Transaction on 41009 from Lego Assistance to 5.49 has a non decimal amount: Sarah T
+2021-07-02 15:47:36.4811 Error - Bank2.Transaction: Transaction on 41011 from Git-Fu Rendered to 0.8 has a non decimal amount: Gergana I
+2021-07-02 15:47:36.4811 Error - Bank2.Transaction: Transaction on 41012 from Lunch to 5.43 has a non decimal amount: Sam N
+2021-07-02 15:47:36.4978 Error - Bank2.Transaction: Transaction on 41013 from Lunch to 10.46 has a non decimal amount: Laura B
+2021-07-02 15:47:36.4978 Error - Bank2.Transaction: Transaction on 41015 from Beers to 11.7 has a non decimal amount: Laura B
+2021-07-02 15:47:36.4978 Error - Bank2.Transaction: Transaction on 41019 from Pokemon Training to 11.09 has a non decimal amount: Stephen S
+2021-07-02 15:47:36.5119 Error - Bank2.Transaction: Transaction on 41022 from Audit and Other Financial Services to 8.44 has a non decimal amount: Todd
+2021-07-02 15:47:36.5119 Error - Bank2.Transaction: Transaction on 41026 from Fantasy Football to 0.93 has a non decimal amount: Laura B
+2021-07-02 15:47:36.5119 Error - Bank2.Transaction: Transaction on 41028 from Jenkins Fees to 8.17 has a non decimal amount: Laura B
+2021-07-02 15:47:36.5119 Error - Bank2.Transaction: Transaction on 41029 from Automated Testing Services to 4.79 has a non decimal amount: Jon A
+2021-07-02 15:47:36.5276 Error - Bank2.Transaction: Transaction on 41031 from Snooker Night to 8.24 has a non decimal amount: Sarah T
+2021-07-02 15:47:36.5276 Error - Bank2.Transaction: Transaction on 41035 from Coffee to 9.17 has a non decimal amount: Gergana I
+2021-07-02 15:47:36.5276 Error - Bank2.Transaction: Transaction on 41038 from Pokemon Training to 11.4 has a non decimal amount: Todd
+2021-07-02 15:47:36.5276 Error - Bank2.Transaction: Transaction on 41039 from Sandbox Help to 1.55 has a non decimal amount: Sam N
+2021-07-02 15:47:36.5404 Error - Bank2.Transaction: Transaction on 41042 from Lunch to 4.3 has a non decimal amount: Chris W
+2021-07-02 15:47:36.5404 Error - Bank2.Transaction: Transaction on 41046 from Automated Testing Services to 8.6 has a non decimal amount: Rob S
+2021-07-02 15:47:36.5404 Error - Bank2.Transaction: Transaction on 41050 from Fantasy Football to 10.88 has a non decimal amount: Todd
+2021-07-02 15:47:36.5404 Error - Bank2.Transaction: Transaction on 41054 from Misc Morale to 5.19 has a non decimal amount: Sarah T
+2021-07-02 15:47:36.5574 Error - Bank2.Transaction: Transaction on 41057 from White Water Rafting to 10.73 has a non decimal amount: Tim L
+2021-07-02 15:47:36.5574 Error - Bank2.Transaction: Transaction on 41060 from Arcade Social to 10.73 has a non decimal amount: Gergana I
+2021-07-02 15:47:36.5574 Error - Bank2.Transaction: Transaction on 41061 from Spline Reticulation to 10.84 has a non decimal amount: Chris W
+2021-07-02 15:47:36.5574 Error - Bank2.Transaction: Transaction on 41062 from Coffee to 3.51 has a non decimal amount: Laura B
+2021-07-02 15:47:36.5574 Error - Bank2.Transaction: Transaction on 41064 from Automated Testing Services to 1.78 has a non decimal amount: Sarah T
+2021-07-02 15:47:36.5754 Error - Bank2.Transaction: Transaction on 41067 from Lunch to 3.11 has a non decimal amount: Dan W
+2021-07-02 15:47:36.5754 Error - Bank2.Transaction: Transaction on 41071 from Lego Assistance to 3.75 has a non decimal amount: Sarah T
+2021-07-02 15:47:36.5754 Error - Bank2.Transaction: Transaction on 41074 from Misc Morale to 4.15 has a non decimal amount: Todd
+2021-07-02 15:47:36.5913 Error - Bank2.Transaction: Transaction on 41078 from Stationary Items to 9.43 has a non decimal amount: Laura B
+2021-07-02 15:47:36.5913 Error - Bank2.Transaction: Transaction on 41079 from Golf Bets to 1.45 has a non decimal amount: Ben B
+2021-07-02 15:47:36.5913 Error - Bank2.Transaction: Transaction on 41081 from Lunch to 8.71 has a non decimal amount: Laura B
+2021-07-02 15:47:36.5913 Error - Bank2.Transaction: Transaction on 41082 from Lunch to 4.8 has a non decimal amount: Stephen S
+2021-07-02 15:47:36.6053 Error - Bank2.Transaction: Transaction on 41085 from Misc Morale to 6.57 has a non decimal amount: Dan W
+2021-07-02 15:47:36.6053 Error - Bank2.Transaction: Transaction on 41087 from Sandcastle Help to 10.78 has a non decimal amount: Chris W
+2021-07-02 15:47:36.6053 Error - Bank2.Transaction: Transaction on 41089 from Poker Winnings to 0.52 has a non decimal amount: Laura B
+2021-07-02 15:47:36.6053 Error - Bank2.Transaction: Transaction on 41091 from Pokemon Training to 10.86 has a non decimal amount: Stephen S
+2021-07-02 15:47:36.6242 Error - Bank2.Transaction: Transaction on 41095 from Snooker Night to 7.98 has a non decimal amount: Jon A
+2021-07-02 15:47:36.6242 Error - Bank2.Transaction: Transaction on 41096 from Jenkins Fees to 7.6 has a non decimal amount: Sarah T
+2021-07-02 15:47:36.6242 Error - Bank2.Transaction: Transaction on 41097 from Git-Fu Rendered to 7.73 has a non decimal amount: Laura B
+2021-07-02 15:47:36.6242 Error - Bank2.Transaction: Transaction on 41099 from Misc Morale to 9.1 has a non decimal amount: Tim L
+2021-07-02 15:47:36.6364 Error - Bank2.Transaction: Transaction on 41103 from Golf Bets to 1.2 has a non decimal amount: Jon A
+2021-07-02 15:47:36.6364 Error - Bank2.Transaction: Transaction on 41104 from Pokemon Training to 3.57 has a non decimal amount: Tim L
+2021-07-02 15:47:36.6364 Error - Bank2.Transaction: Transaction on 41106 from Services Rendered to 1.33 has a non decimal amount: Ben B
+2021-07-02 15:47:36.6364 Error - Bank2.Transaction: Transaction on 41108 from Coffee to 8.55 has a non decimal amount: Stephen S
+2021-07-02 15:47:36.6512 Error - Bank2.Transaction: Transaction on 41112 from Lego Assistance to 10.01 has a non decimal amount: Jon A
+2021-07-02 15:47:36.6512 Error - Bank2.Transaction: Transaction on 41113 from Beers to 5.83 has a non decimal amount: Jon A
+2021-07-02 15:47:36.6512 Error - Bank2.Transaction: Transaction on 41114 from Coffee to 10.52 has a non decimal amount: Rob S
+2021-07-02 15:47:36.6713 Error - Bank2.Transaction: Transaction on 41116 from Jenkins Fees to 11.59 has a non decimal amount: Todd
+2021-07-02 15:47:36.6713 Error - Bank2.Transaction: Transaction on 41117 from Coffee to 9.47 has a non decimal amount: Jon A
+2021-07-02 15:47:36.6713 Error - Bank2.Transaction: Transaction on 41120 from Misc Morale to 4.34 has a non decimal amount: Rob S
+2021-07-02 15:47:36.6826 Error - Bank2.Transaction: Transaction on 41124 from Lunch to 10.41 has a non decimal amount: Stephen S
+2021-07-02 15:47:36.6826 Error - Bank2.Transaction: Transaction on 41126 from Sandbox Help to 2.12 has a non decimal amount: Tim L
+2021-07-02 15:47:36.6826 Error - Bank2.Transaction: Transaction on 41130 from Snooker Night to 1.74 has a non decimal amount: Laura B
+2021-07-02 15:47:36.6826 Error - Bank2.Transaction: Transaction on 41131 from Misc Morale to 1.92 has a non decimal amount: Chris W
+2021-07-02 15:47:36.6998 Error - Bank2.Transaction: Transaction on 41132 from Rails Consultancy to 3.2 has a non decimal amount: Chris W
+2021-07-02 15:47:36.6998 Error - Bank2.Transaction: Transaction on 41133 from Beers to 5.38 has a non decimal amount: Chris W
+2021-07-02 15:47:36.6998 Error - Bank2.Transaction: Transaction on 41134 from Automated Testing Services to 8.57 has a non decimal amount: Todd
+2021-07-02 15:47:36.7158 Error - Bank2.Transaction: Transaction on 41135 from White Water Rafting to 8.85 has a non decimal amount: Sarah T
+2021-07-02 15:47:36.7158 Error - Bank2.Transaction: Transaction on 41139 from Misc Morale to 11.22 has a non decimal amount: Laura B
+2021-07-02 15:47:36.7158 Error - Bank2.Transaction: Transaction on 41142 from Coffee to 0.58 has a non decimal amount: Dan W
+2021-07-02 15:47:36.7158 Error - Bank2.Transaction: Transaction on 41145 from Audit and Other Financial Services to 10.69 has a non decimal amount: Sarah T
+2021-07-02 15:47:36.7158 Error - Bank2.Transaction: Transaction on 41147 from Coffee to 7.72 has a non decimal amount: Sarah T
+2021-07-02 15:47:36.7158 Error - Bank2.Transaction: Transaction on 41148 from Services Rendered to 9.11 has a non decimal amount: Tim L
+2021-07-02 15:47:36.7300 Error - Bank2.Transaction: Transaction on 41151 from Fantasy Football to 8.65 has a non decimal amount: Tim L
+2021-07-02 15:47:36.7300 Error - Bank2.Transaction: Transaction on 41154 from Coffee to 8.36 has a non decimal amount: Sarah T
+2021-07-02 15:47:36.7300 Error - Bank2.Transaction: Transaction on 41155 from Snooker Night to 3.57 has a non decimal amount: Todd
+2021-07-02 15:47:36.7514 Error - Bank2.Transaction: Transaction on 41156 from Pokemon Training to 10.2 has a non decimal amount: Dan W
+2021-07-02 15:47:36.7514 Error - Bank2.Transaction: Transaction on 41159 from Jenkins Fees to 7.89 has a non decimal amount: Stephen S
+2021-07-02 15:47:36.7694 Error - Bank2.Transaction: Transaction on 41163 from Lunch to 4.41 has a non decimal amount: Sarah T
+2021-07-02 15:47:36.7746 Error - Bank2.Transaction: Transaction on 41165 from Git-Fu Rendered to 10.89 has a non decimal amount: Todd
+2021-07-02 15:47:36.7746 Error - Bank2.Transaction: Transaction on 41169 from Lunch to 0.64 has a non decimal amount: Stephen S
+2021-07-02 15:47:36.7746 Error - Bank2.Transaction: Transaction on 41172 from Beers to 10.25 has a non decimal amount: Sam N
+2021-07-02 15:47:36.7746 Error - Bank2.Transaction: Transaction on 41174 from Sandcastle Help to 4.73 has a non decimal amount: Rob S
+2021-07-02 15:47:36.7952 Error - Bank2.Transaction: Transaction on 41178 from Golf Bets to 11.83 has a non decimal amount: Todd
+2021-07-02 15:47:36.7952 Error - Bank2.Transaction: Transaction on 41181 from Lunch to 4.42 has a non decimal amount: Tim L
+2021-07-02 15:47:36.7952 Error - Bank2.Transaction: Transaction on 41184 from Coffee to 3.66 has a non decimal amount: Jon A
+2021-07-02 15:47:36.8068 Error - Bank2.Transaction: Transaction on 41187 from Lunch to 10.25 has a non decimal amount: Laura B
+2021-07-02 15:47:36.8068 Error - Bank2.Transaction: Transaction on 41191 from Lunch to 2.48 has a non decimal amount: Chris W
+2021-07-02 15:47:36.8068 Error - Bank2.Transaction: Transaction on 41194 from Lunch to 10.62 has a non decimal amount: Laura B
+2021-07-02 15:47:36.8068 Error - Bank2.Transaction: Transaction on 41198 from Misc Morale to 9.01 has a non decimal amount: Jon A
+2021-07-02 15:47:36.8280 Error - Bank2.Transaction: Transaction on 41199 from Audit and Other Financial Services to 10.6 has a non decimal amount: Ben B
+2021-07-02 15:47:36.8280 Error - Bank2.Transaction: Transaction on 41200 from Beers to 4.34 has a non decimal amount: Todd
+2021-07-02 15:47:36.8280 Error - Bank2.Transaction: Transaction on 41203 from Sandcastle Help to 10.4 has a non decimal amount: Todd
+2021-07-02 15:47:36.8408 Error - Bank2.Transaction: Transaction on 41204 from Coffee to 2.13 has a non decimal amount: Sam N
+2021-07-02 15:47:36.8408 Error - Bank2.Transaction: Transaction on 41207 from Beers to 6.22 has a non decimal amount: Dan W
+2021-07-02 15:47:36.8408 Error - Bank2.Transaction: Transaction on 41209 from Coffee to 9.29 has a non decimal amount: Gergana I
+2021-07-02 15:47:36.8408 Error - Bank2.Transaction: Transaction on 41211 from Coffee to 11.07 has a non decimal amount: Dan W
+2021-07-02 15:47:36.8532 Error - Bank2.Transaction: Transaction on 41215 from Coffee to 7.83 has a non decimal amount: Ben B
+2021-07-02 15:47:36.8532 Error - Bank2.Transaction: Transaction on 41216 from Golf Bets to 5.18 has a non decimal amount: Sarah T
+2021-07-02 15:47:36.8532 Error - Bank2.Transaction: Transaction on 41218 from Beers to 6.66 has a non decimal amount: Sam N
+2021-07-02 15:47:36.8532 Error - Bank2.Transaction: Transaction on 41222 from Pokemon Training to 3.74 has a non decimal amount: Tim L
+2021-07-02 15:47:36.8722 Error - Bank2.Transaction: Transaction on 41226 from Coffee to 11.93 has a non decimal amount: Tim L
+2021-07-02 15:47:36.8722 Error - Bank2.Transaction: Transaction on 41228 from Lunch to 2.99 has a non decimal amount: Jon A
+2021-07-02 15:47:36.8722 Error - Bank2.Transaction: Transaction on 41229 from Automated Testing Services to 5.95 has a non decimal amount: Stephen S
+2021-07-02 15:47:36.8844 Error - Bank2.Transaction: Transaction on 41232 from Coffee to 7.08 has a non decimal amount: Dan W
+2021-07-02 15:47:36.8844 Error - Bank2.Transaction: Transaction on 41235 from Git-Fu Rendered to 6.63 has a non decimal amount: Rob S
+2021-07-02 15:47:36.8844 Error - Bank2.Transaction: Transaction on 41236 from Lego Assistance to 0.92 has a non decimal amount: Dan W
+2021-07-02 15:47:36.8844 Error - Bank2.Transaction: Transaction on 41239 from Coffee to 1.49 has a non decimal amount: Rob S
+2021-07-02 15:47:36.9001 Error - Bank2.Transaction: Transaction on 41240 from Services Rendered to 10.78 has a non decimal amount: Chris W
+2021-07-02 15:47:36.9001 Error - Bank2.Transaction: Transaction on 41243 from Git-Fu Rendered to 4.53 has a non decimal amount: Chris W
+2021-07-02 15:47:36.9001 Error - Bank2.Transaction: Transaction on 41244 from Misc Morale to 2.92 has a non decimal amount: Gergana I
+2021-07-02 15:47:36.9001 Error - Bank2.Transaction: Transaction on 41247 from Jenkins Fees to 7.88 has a non decimal amount: Jon A
+2021-07-02 15:47:36.9001 Error - Bank2.Transaction: Transaction on 41251 from Coffee to 9.31 has a non decimal amount: Tim L
+2021-07-02 15:47:36.9173 Error - Bank2.Transaction: Transaction on 41254 from Rails Consultancy to 2.44 has a non decimal amount: Sam N
+2021-07-02 15:47:36.9173 Error - Bank2.Transaction: Transaction on 41255 from Stationary Items to 8.89 has a non decimal amount: Sarah T
+2021-07-02 15:47:36.9173 Error - Bank2.Transaction: Transaction on 41259 from Spline Reticulation to 8.73 has a non decimal amount: Tim L
+2021-07-02 15:47:36.9308 Error - Bank2.Transaction: Transaction on 41261 from Lunch to 10.28 has a non decimal amount: Sarah T
+2021-07-02 15:47:36.9308 Error - Bank2.Transaction: Transaction on 41265 from Lego Assistance to 6.07 has a non decimal amount: Stephen S
+2021-07-02 15:47:36.9308 Error - Bank2.Transaction: Transaction on 41269 from Coffee to 6.28 has a non decimal amount: Tim L
+2021-07-02 15:47:36.9308 Error - Bank2.Transaction: Transaction on 41271 from Automated Testing Services to 10.98 has a non decimal amount: Rob S
+2021-07-02 15:47:36.9308 Error - Bank2.Transaction: Transaction on 41273 from Services Rendered to 0.77 has a non decimal amount: Tim L
+2021-07-02 15:51:30.8080 Info - Bank2.Program: Program started
+2021-07-02 15:51:49.9651 Info - Bank2.Program: Program started
+2021-07-02 15:52:20.9392 Info - Bank2.Program: User called all users debts and lends report.
+2021-07-02 15:53:13.9557 Info - Bank2.Program: Program started
+2021-07-02 15:53:20.0546 Info - Bank2.Program: User called all users debts and lends report.
+2021-07-02 15:58:20.4228 Info - Bank2.Program: Program started
+2021-07-02 15:58:54.5876 Info - Bank2.Program: User called List of Jon A's transactions report.
+2021-07-02 15:58:54.5907 Error - Bank2.Program: Jon A does not exist in our database... sorry...
+2021-07-02 15:59:21.4093 Error - Bank2.Program: User decided not to continue
+2021-07-02 15:59:29.2495 Info - Bank2.Program: Program started
+2021-07-02 15:59:31.9088 Info - Bank2.TransactionFileParser: The program has successfully read the file.
+2021-07-02 15:59:37.8832 Info - Bank2.Program: User called List of Jon A's transactions report.
+2021-07-02 15:59:37.8892 Info - Bank2.Program: Jon A's transaction report was given.
